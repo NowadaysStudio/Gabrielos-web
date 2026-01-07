@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propuesta Web | Gabrielos Pizza Artesanal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000000;
+            color: #FFFFFF;
+        }
+
+        .brand-red {
+            color: #D32F2F;
+        }
+        
+        .bg-brand-red {
+            background-color: #D32F2F;
+        }
+
+        .border-brand-red {
+            border-color: #D32F2F;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1a1a1a; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #333; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #D32F2F; 
+        }
+
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.5s;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .nav-item.active {
+            border-bottom: 2px solid #D32F2F;
+            color: #FFFFFF;
+        }
+        
+        .nav-item {
+            color: #9CA3AF;
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <!-- Header / Nav -->
+    <header class="border-b border-gray-800 bg-black sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logos Area -->
+                <div class="flex items-center space-x-4">
+                    <!-- Placeholder para Gabrielos Logo -->
+                    <!-- Reemplazar src con 'gabrielos logo.jpg' -->
+                    <div class="h-12 w-12 rounded-full overflow-hidden border-2 border-brand-red bg-white flex items-center justify-center">
+                        <img src="gabrielos logo.jpg" onerror="this.src='https://placehold.co/100x100/black/red?text=GP'" alt="Gabrielos Pizza" class="object-cover h-full w-full">
+                    </div>
+                    <span class="text-gray-500 text-xl">|</span>
+                    <!-- Placeholder para NWS Logo -->
+                    <!-- Reemplazar src con 'image_90d983.png' -->
+                    <div class="h-10 w-auto">
+                        <img src="image_90d983.png" onerror="this.src='https://placehold.co/100x40/black/white?text=NWS'" alt="NOWADAYS Studio" class="h-full object-contain">
+                    </div>
+                </div>
+
+                <!-- Desktop Nav -->
+                <nav class="hidden md:flex space-x-8">
+                    <button onclick="switchTab('resumen')" class="nav-item active py-4 px-2 font-medium text-sm hover:text-white" id="nav-resumen">Resumen</button>
+                    <button onclick="switchTab('objetivos')" class="nav-item py-4 px-2 font-medium text-sm hover:text-white" id="nav-objetivos">Objetivos</button>
+                    <button onclick="switchTab('estructura')" class="nav-item py-4 px-2 font-medium text-sm hover:text-white" id="nav-estructura">Estructura Web</button>
+                    <button onclick="switchTab('alcance')" class="nav-item py-4 px-2 font-medium text-sm hover:text-white" id="nav-alcance">Plan Profesional</button>
+                    <button onclick="switchTab('inversion')" class="nav-item py-4 px-2 font-medium text-sm hover:text-white" id="nav-inversion">Inversión</button>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button onclick="document.getElementById('mobile-menu').classList.toggle('hidden')" class="text-gray-300 hover:text-white p-2">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Nav Panel -->
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-900 border-b border-gray-800">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <button onclick="switchTab('resumen'); toggleMobile()" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-800">Resumen</button>
+                <button onclick="switchTab('objetivos'); toggleMobile()" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-gray-800">Objetivos</button>
+                <button onclick="switchTab('estructura'); toggleMobile()" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-gray-800">Estructura Web</button>
+                <button onclick="switchTab('alcance'); toggleMobile()" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-gray-800">Plan Profesional</button>
+                <button onclick="switchTab('inversion'); toggleMobile()" class="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-gray-800">Inversión</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
+
+        <!-- TAB: RESUMEN (HERO) -->
+        <div id="resumen" class="tab-content active">
+            <div class="relative rounded-2xl overflow-hidden bg-gray-900 border border-gray-800 shadow-2xl">
+                <div class="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent z-10"></div>
+                <!-- Imagen de fondo temática (Pizza) -->
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80" alt="Pizza Background" class="absolute inset-0 w-full h-full object-cover opacity-50">
+                
+                <div class="relative z-20 p-8 md:p-16 flex flex-col justify-center min-h-[500px]">
+                    <h2 class="text-brand-red font-bold tracking-wider uppercase text-sm mb-2">Propuesta de Desarrollo Web</h2>
+                    <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-6 leading-tight">
+                        La nueva era digital de <br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-800">Gabrielos Pizza Artesanal</span>
+                    </h1>
+                    <p class="text-gray-300 text-lg md:text-xl max-w-2xl mb-8">
+                        Una plataforma diseñada para despertar el apetito, centralizar pedidos y profesionalizar la marca en General Escobedo.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button onclick="switchTab('estructura')" class="bg-brand-red hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full transition duration-300">
+                            Ver Estructura
+                        </button>
+                        <button onclick="switchTab('inversion')" class="border border-white hover:bg-white hover:text-black text-white font-bold py-3 px-8 rounded-full transition duration-300">
+                            Ver Cotización
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats / Highlights Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+                <div class="bg-gray-900/50 p-6 rounded-xl border border-gray-800">
+                    <i class="fas fa-mobile-alt text-brand-red text-3xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">100% Responsivo</h3>
+                    <p class="text-gray-400 text-sm">Adaptado perfectamente a móviles para captar pedidos rápidos.</p>
+                </div>
+                <div class="bg-gray-900/50 p-6 rounded-xl border border-gray-800">
+                    <i class="fas fa-pen-fancy text-brand-red text-3xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Copywriting Incluido</h3>
+                    <p class="text-gray-400 text-sm">Textos persuasivos redactados profesionalmente para vender más.</p>
+                </div>
+                <div class="bg-gray-900/50 p-6 rounded-xl border border-gray-800">
+                    <i class="fas fa-map-marker-alt text-brand-red text-3xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">SEO Local</h3>
+                    <p class="text-gray-400 text-sm">Integración con Google Maps para dominar la zona de Escobedo.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB: OBJETIVOS -->
+        <div id="objetivos" class="tab-content">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6 border-l-4 border-brand-red pl-4">Objetivo Principal</h2>
+                    <p class="text-gray-300 mb-6 text-lg">
+                        Desarrollar un ecosistema digital centralizado que eleve la percepción de marca de <strong>Gabrielos Pizza</strong>, facilitando la consulta del menú y convirtiendo visitantes en pedidos directos a través de WhatsApp, eliminando la fricción de búsqueda en redes sociales dispersas.
+                    </p>
+                    
+                    <h3 class="text-xl font-bold mb-4 mt-8 text-white">Beneficios Esperados</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-brand-red mt-1 mr-3"></i>
+                            <div>
+                                <strong class="text-white">Profesionalización:</strong>
+                                <p class="text-gray-400 text-sm">Diferenciación inmediata de la competencia local mediante diseño UX/UI de alta gama.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-brand-red mt-1 mr-3"></i>
+                            <div>
+                                <strong class="text-white">Centralización:</strong>
+                                <p class="text-gray-400 text-sm">Control total de la narrativa y menú, sin depender del algoritmo de Facebook.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-brand-red mt-1 mr-3"></i>
+                            <div>
+                                <strong class="text-white">Conversión Rápida:</strong>
+                                <p class="text-gray-400 text-sm">Botones estratégicos (CTA) para reducir el tiempo entre "ver el antojo" y "pedir".</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-gray-900 p-8 rounded-xl border border-gray-800 relative">
+                    <!-- Decoración visual -->
+                    <div class="absolute -top-4 -right-4 w-20 h-20 bg-brand-red/20 rounded-full blur-xl"></div>
+                    <h3 class="text-white font-bold mb-6 text-center">La Transformación Digital</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-center justify-between p-4 bg-black rounded-lg border border-gray-700">
+                            <span class="text-gray-400">Antes</span>
+                            <span class="text-xs bg-gray-800 px-2 py-1 rounded">Redes Sociales Dispersas</span>
+                        </div>
+                        <div class="flex justify-center">
+                            <i class="fas fa-arrow-down text-brand-red animate-bounce"></i>
+                        </div>
+                        <div class="flex items-center justify-between p-4 bg-gray-800 rounded-lg border border-brand-red shadow-[0_0_15px_rgba(211,47,47,0.3)]">
+                            <span class="text-white font-bold">Ahora</span>
+                            <span class="text-xs bg-brand-red text-white px-2 py-1 rounded">Web Centralizada + Ventas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB: ESTRUCTURA -->
+        <div id="estructura" class="tab-content">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-bold mb-2">Arquitectura del Sitio</h2>
+                <p class="text-gray-400">Basado en el Plan Profesional (5 Secciones) con navegación intuitiva.</p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- Seccion 1 -->
+                <div class="group relative bg-gray-900 border border-gray-800 hover:border-brand-red transition-all duration-300 rounded-xl overflow-hidden flex flex-col md:flex-row">
+                    <div class="bg-gray-800 w-full md:w-24 flex items-center justify-center p-4">
+                        <span class="text-4xl font-black text-gray-700 group-hover:text-brand-red">01</span>
+                    </div>
+                    <div class="p-6 flex-grow">
+                        <h3 class="text-xl font-bold text-white mb-2">Inicio (Hero Section)</h3>
+                        <p class="text-gray-400 text-sm mb-3">Diseñada para impacto visual inmediato. Fotografía de producto en alta calidad.</p>
+                        <div class="flex gap-2 text-xs">
+                            <span class="bg-black px-2 py-1 rounded text-gray-300">Slogan de marca</span>
+                            <span class="bg-black px-2 py-1 rounded text-gray-300">CTA "Pedir ahora"</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Seccion 2 -->
+                <div class="group relative bg-gray-900 border border-gray-800 hover:border-brand-red transition-all duration-300 rounded-xl overflow-hidden flex flex-col md:flex-row">
+                    <div class="bg-gray-800 w-full md:w-24 flex items-center justify-center p-4">
+                        <span class="text-4xl font-black text-gray-700 group-hover:text-brand-red">02</span>
+                    </div>
+                    <div class="p-6 flex-grow">
+                        <h3 class="text-xl font-bold text-white mb-2">Nosotros (La Experiencia)</h3>
+                        <p class="text-gray-400 text-sm mb-3">Narrativa sobre el proceso artesanal e ingredientes frescos. Conexión emocional con el cliente.</p>
+                        <div class="flex gap-2 text-xs">
+                            <span class="bg-black px-2 py-1 rounded text-gray-300">Historia</span>
+                            <span class="bg-black px-2 py-1 rounded text-gray-300">Valores</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Seccion 3 -->
+                <div class="group relative bg-gray-900 border border-brand-red shadow-[0_0_10px_rgba(211,47,47,0.1)] transition-all duration-300 rounded-xl overflow-hidden flex flex-col md:flex-row">
+                    <div class="bg-gray-800 w-full md:w-24 flex items-center justify-center p-4">
+                        <span class="text-4xl font-black text-white">03</span>
+                    </div>
+                    <div class="p-6 flex-grow">
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-xl font-bold text-white mb-2">Menú Digital Interactivo</h3>
+                            <span class="bg-brand-red text-white text-[10px] uppercase font-bold px-2 py-1 rounded">Core del Negocio</span>
+                        </div>
+                        <p class="text-gray-400 text-sm mb-3">Categorías claras (Clásicas, Especialidades, Complementos). Descripciones apetitosas optimizadas.</p>
+                        <div class="flex gap-2 text-xs flex-wrap">
+                            <span class="bg-black px-2 py-1 rounded text-gray-300">Galería (30 imgs)</span>
+                            <span class="bg-black px-2 py-1 rounded text-gray-300">Precios actualizables</span>
+                            <span class="bg-black px-2 py-1 rounded text-gray-300">Botones de pedido</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Seccion 4 -->
+                <div class="group relative bg-gray-900 border border-gray-800 hover:border-brand-red transition-all duration-300 rounded-xl overflow-hidden flex flex-col md:flex-row">
+                    <div class="bg-gray-800 w-full md:w-24 flex items-center justify-center p-4">
+                        <span class="text-4xl font-black text-gray-700 group-hover:text-brand-red">04</span>
+                    </div>
+                    <div class="p-6 flex-grow">
+                        <h3 class="text-xl font-bold text-white mb-2">Ubicación y Zonas</h3>
+                        <p class="text-gray-400 text-sm mb-3">Integración avanzada con Google Maps para facilitar la visita física o validar zonas de delivery.</p>
+                        <div class="flex gap-2 text-xs">
+                            <span class="bg-black px-2 py-1 rounded text-gray-300">Mapa Interactivo</span>
+                            <span class="bg-black px-2 py-1 rounded text-gray-300">Horarios</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Seccion 5 -->
+                <div class="group relative bg-gray-900 border border-gray-800 hover:border-brand-red transition-all duration-300 rounded-xl overflow-hidden flex flex-col md:flex-row">
+                    <div class="bg-gray-800 w-full md:w-24 flex items-center justify-center p-4">
+                        <span class="text-4xl font-black text-gray-700 group-hover:text-brand-red">05</span>
+                    </div>
+                    <div class="p-6 flex-grow">
+                        <h3 class="text-xl font-bold text-white mb-2">Contacto Directo</h3>
+                        <p class="text-gray-400 text-sm mb-3">Canales de comunicación sin fricción.</p>
+                        <div class="flex gap-2 text-xs">
+                            <span class="bg-black px-2 py-1 rounded text-gray-300">WhatsApp Flotante</span>
+                            <span class="bg-black px-2 py-1 rounded text-gray-300">Formulario</span>
+                            <span class="bg-black px-2 py-1 rounded text-gray-300">Links a RRSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB: ALCANCE (PLAN PROFESIONAL) -->
+        <div id="alcance" class="tab-content">
+            <div class="bg-white text-black rounded-2xl p-8 md:p-12 relative overflow-hidden">
+                <div class="absolute top-0 right-0 bg-brand-red text-white font-bold px-6 py-2 rounded-bl-xl">
+                    Plan Seleccionado: PROFESIONAL
+                </div>
+
+                <h2 class="text-3xl font-bold mb-8">Especificaciones Técnicas</h2>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Columna 1 -->
+                    <div>
+                        <h4 class="font-bold text-lg mb-4 border-b-2 border-brand-red pb-2 inline-block">Desarrollo & Diseño</h4>
+                        <ul class="space-y-3 text-sm">
+                            <li class="flex justify-between border-b border-gray-200 pb-2">
+                                <span>Secciones Incluidas</span>
+                                <span class="font-bold">5 Secciones</span>
+                            </li>
+                            <li class="flex justify-between border-b border-gray-200 pb-2">
+                                <span>Diseño Responsivo</span>
+                                <span class="font-bold">Móvil / Tablet / Desktop</span>
+                            </li>
+                            <li class="flex justify-between border-b border-gray-200 pb-2">
+                                <span>Galería Imágenes</span>
+                                <span class="font-bold">Hasta 30 fotos</span>
+                            </li>
+                            <li class="flex justify-between border-b border-gray-200 pb-2">
+                                <span>Video</span>
+                                <span class="font-bold">1 Video integrado</span>
+                            </li>
+                            <li class="flex justify-between border-b border-gray-200 pb-2">
+                                <span>Ubicación</span>
+                                <span class="font-bold">Hasta 6 pines Google Maps</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Columna 2 -->
+                    <div>
+                        <h4 class="font-bold text-lg mb-4 border-b-2 border-brand-red pb-2 inline-block">Funcionalidad & Legal</h4>
+                        <ul class="space-y-3 text-sm">
+                            <li class="flex justify-between border-b border-gray-200 pb-2">
+                                <span>Seguridad</span>
+                                <span class="font-bold">Certificado SSL Incluido</span>
+                            </li>
+                            <li class="flex justify-between border-b border-gray-200 pb-2">
+                                <span>Redes Sociales</span>
+                                <span class="font-bold">FB, IG, TikTok, X</span>
+                            </li>
+                            <li class="flex justify-between border-b border-gray-200 pb-2">
+                                <span>WhatsApp</span>
+                                <span class="font-bold">Botón Directo</span>
+                            </li>
+                            <li class="flex justify-between border-b border-gray-200 pb-2">
+                                <span>Páginas Legales</span>
+                                <span class="font-bold">2 (Términos/Políticas)</span>
+                            </li>
+                            <li class="flex justify-between border-b border-gray-200 pb-2">
+                                <span>Reuniones de Ajuste</span>
+                                <span class="font-bold">3 Reuniones</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mt-8 bg-gray-100 p-6 rounded-xl">
+                    <h4 class="font-bold text-lg mb-2 text-brand-red"><i class="fas fa-gift mr-2"></i>Add-ons Gratuitos Incluidos</h4>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
+                        <div class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i>Servicio de Copywriting Profesional</div>
+                        <div class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i>1 Mes de Hosting/Mantenimiento Prueba</div>
+                        <div class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i>Asesoría Compra de Dominio</div>
+                        <div class="flex items-center"><i class="fas fa-check text-green-600 mr-2"></i>Conexión de Dominio</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB: INVERSION -->
+        <div id="inversion" class="tab-content">
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-gray-900 border border-gray-800 rounded-2xl p-8 md:p-12 text-center">
+                    <h2 class="text-2xl text-gray-400 mb-2">Inversión Total del Proyecto</h2>
+                    <div class="flex justify-center items-baseline mb-8">
+                        <span class="text-5xl md:text-7xl font-extrabold text-white">$5,000</span>
+                        <span class="text-xl text-gray-500 ml-2">MXN</span>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10 text-left">
+                        <div class="bg-black p-6 rounded-xl border border-gray-800">
+                            <h4 class="font-bold text-brand-red mb-2">Esquema de Pago</h4>
+                            <p class="text-white text-sm">50% Anticipo para inicio.</p>
+                            <p class="text-white text-sm">50% Contra entrega final.</p>
+                        </div>
+                        <div class="bg-black p-6 rounded-xl border border-gray-800">
+                            <h4 class="font-bold text-brand-red mb-2">Tiempo de Entrega</h4>
+                            <p class="text-white text-sm">4 a 6 semanas</p>
+                            <p class="text-gray-500 text-xs mt-1">*Bajo condiciones ideales de flujo de información.</p>
+                        </div>
+                    </div>
+
+                    <div class="border-t border-gray-800 pt-8">
+                        <h4 class="text-white font-bold mb-4">Notas Adicionales</h4>
+                        <ul class="text-sm text-gray-400 space-y-2 text-left max-w-2xl mx-auto list-disc pl-5">
+                            <li>El plan incluye configuración de dominio y hosting gratuito por 1 mes.</li>
+                            <li>El mantenimiento posterior opcional es de $1,000 MXN mensuales.</li>
+                            <li>La información (textos base, logo) debe ser provista por el cliente para iniciar.</li>
+                            <li>Se incluye certificado de seguridad SSL para garantizar confianza del usuario.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mt-12">
+                        <a href="https://wa.me/" class="inline-block bg-brand-red hover:bg-red-700 text-white font-bold py-4 px-12 rounded-full transition duration-300 shadow-lg shadow-red-900/30">
+                            Aprobar y Comenzar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="bg-gray-900 border-t border-gray-800 py-8 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="text-gray-500 text-sm">Propuesta elaborada por <strong>NOWADAYS Studio</strong> para <strong>Gabrielos Pizza Artesanal</strong>.</p>
+            <p class="text-gray-600 text-xs mt-2">&copy; 2024 NOWADAYS Studio. Documento confidencial.</p>
+        </div>
+    </footer>
+
+    <script>
+        function switchTab(tabId) {
+            // Hide all tabs
+            const contents = document.querySelectorAll('.tab-content');
+            contents.forEach(content => {
+                content.classList.remove('active');
+            });
+
+            // Show selected tab
+            document.getElementById(tabId).classList.add('active');
+
+            // Update Nav State
+            const navItems = document.querySelectorAll('.nav-item');
+            navItems.forEach(item => {
+                item.classList.remove('active');
+            });
+            
+            // Check if element exists (desktop nav)
+            const activeNav = document.getElementById('nav-' + tabId);
+            if(activeNav) {
+                activeNav.classList.add('active');
+            }
+        }
+        
+        function toggleMobile() {
+             document.getElementById('mobile-menu').classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>

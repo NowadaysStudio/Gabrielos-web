@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabrielos Pizza Artesanal | Menú</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html">GABRIELOS<span>PIZZA</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="menu.html">Menú</a></li>
+                <li><a href="promociones.html">Promociones</a></li>
+                <li><a href="experiencias.html">Experiencias</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+
+    <header class="page-header">
+        <div class="overlay"></div>
+        <div class="header-content fade-in-up">
+            <h1>NUESTRO <span class="text-gold">MENÚ</span></h1>
+            <p>Sabores auténticos creados con pasión</p>
+        </div>
+    </header>
+
+    <section class="section-padding bg-black menu-section">
+        <div class="container">
+            
+            <div class="menu-filters fade-in-up">
+                <button class="filter-btn active" data-filter="all">Todo</button>
+                <button class="filter-btn" data-filter="clasicas">Clásicas</button>
+                <button class="filter-btn" data-filter="gourmet">Gourmet</button>
+                <button class="filter-btn" data-filter="bebidas">Bebidas</button>
+            </div>
+
+            <div class="menu-grid">
+                
+                <div class="menu-item fade-in-up" data-category="clasicas">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Pizza Pepperoni">
+                        <span class="price">$180</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>PEPPERONI CLÁSICA</h3>
+                        <p>Salsa de tomate casera, mozzarella premium y doble porción de pepperoni madurado.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item fade-in-up" data-category="gourmet">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Pizza Margarita">
+                        <span class="price">$220</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>MARGARITA ESPECIAL</h3>
+                        <p>Tomates cherry, albahaca fresca, mozzarella de búfala y un toque de aceite de oliva extra virgen.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item fade-in-up" data-category="gourmet">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Pizza Carnes Frias">
+                        <span class="price">$250</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>GABRIELO'S MEAT</h3>
+                        <p>Nuestra especialidad de la casa: Salami, jamón serrano, chorizo italiano y aceitunas negras.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item fade-in-up" data-category="clasicas">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Pizza Hawaiana">
+                        <span class="price">$190</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>HAWAIANA ARTESANAL</h3>
+                        <p>Piña asada con canela, jamón de pierna horneado y queso manchego.</p>
+                    </div>
+                </div>
+
+                 <div class="menu-item fade-in-up" data-category="bebidas">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Refresco Italiano">
+                        <span class="price">$65</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>SODA ITALIANA</h3>
+                        <p>Refrescante mezcla de agua carbonatada y jarabes frutales naturales (Fresa, Maracuyá, Mango).</p>
+                    </div>
+                </div>
+
+                <div class="menu-item fade-in-up" data-category="bebidas">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cerveza Artesanal">
+                        <span class="price">$85</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>CERVEZA ARTESANAL</h3>
+                        <p>Selección de cervezas locales tipo Lager, IPA y Stout para maridar perfectamente.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/gabrielospizzaartesanal/?locale=es_LA" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p>&copy; 2024 Gabrielos Pizza Artesanal. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -248,3 +248,55 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
+// --- Lógica Galería Infinita (Auto-Scroll) ---
+document.addEventListener('DOMContentLoaded', () => {
+    const reel = document.querySelector('.gallery-reel');
+    
+    if (reel) {
+        // 1. Clonar elementos para crear ilusión de infinitud
+        const items = Array.from(reel.children);
+        items.forEach(item => {
+            const clone = item.cloneNode(true);
+            reel.appendChild(clone);
+        });
+
+        // Variables de control
+        let scrollAmount = 0;
+        const speed = 0.5; // Velocidad del scroll (ajustable)
+        let isHovered = false;
+        let animationId;
+
+        // 2. Función de animación
+        const scrollLoop = () => {
+            if (!isHovered) {
+                scrollAmount += speed;
+                
+                // Si llegamos a la mitad (fin del contenido original), resetear a 0
+                // scrollWidth / 2 funciona porque duplicamos el contenido exacto
+                if (scrollAmount >= reel.scrollWidth / 2) {
+                    scrollAmount = 0;
+                }
+                
+                reel.scrollLeft = scrollAmount;
+            } else {
+                // Sincronizar variable con scroll manual del usuario si pausó
+                scrollAmount = reel.scrollLeft;
+            }
+            
+            animationId = requestAnimationFrame(scrollLoop);
+        };
+
+        // 3. Iniciar loop
+        animationId = requestAnimationFrame(scrollLoop);
+
+        // 4. Control de Pausa (Desktop Hover / Mobile Touch)
+        reel.addEventListener('mouseenter', () => isHovered = true);
+        reel.addEventListener('mouseleave', () => isHovered = false);
+        
+        reel.addEventListener('touchstart', () => isHovered = true, {passive: true});
+        reel.addEventListener('touchend', () => {
+            setTimeout(() => isHovered = false, 1000); // Pequeño delay antes de reanudar
+        });
+    }
+});

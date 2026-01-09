@@ -350,3 +350,100 @@ footer { background-color: #111; padding: 40px 0; text-align: center; border-top
     .section-title { font-size: 2rem; }
     .history-banner { max-height: 250px; }
 }
+
+/* ==========================================================================
+   SECCIÓN GALERÍA "REEL" (OPTIMIZADO MÓVIL + AUTO SCROLL)
+   ========================================================================== */
+
+.gallery-section {
+    padding: 60px 0;
+    background-color: var(--bg-color);
+    overflow: hidden;
+}
+
+.gallery-title-wrapper {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+.gallery-reel {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding: 20px 0; /* Padding vertical, sin horizontal para full bleed */
+    scroll-behavior: auto; /* Importante: auto para que el JS controle la velocidad sin inercia */
+    -webkit-overflow-scrolling: touch;
+    
+    /* Ocultar barra de scroll (Estética Móvil) */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+}
+
+.gallery-reel::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+}
+
+.reel-item {
+    flex: 0 0 300px; /* Desktop Standard */
+    height: 400px;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid #222;
+    transition: var(--transition);
+    /* Prevent image dragging ghost */
+    user-select: none;
+}
+
+.reel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none; /* Evita arrastrar la imagen en desktop */
+    filter: grayscale(20%) brightness(0.9);
+}
+
+.reel-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+    opacity: 0;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.reel-icon {
+    color: var(--accent-color);
+    font-size: 1.5rem;
+    transform: translateY(20px);
+    transition: transform 0.3s ease;
+}
+
+/* Hover Effects */
+.reel-item:hover {
+    transform: scale(1.02);
+    border-color: var(--accent-color);
+    z-index: 2;
+}
+
+.reel-item:hover .reel-overlay { opacity: 1; }
+.reel-item:hover .reel-icon { transform: translateY(0); }
+.reel-item:hover img { filter: grayscale(0%); }
+
+/* --- MOBILE FIRST ADJUSTMENTS --- */
+@media (max-width: 768px) {
+    .reel-item {
+        /* Ancho relativo al viewport para que se vea parte del siguiente */
+        flex: 0 0 70vw; 
+        height: 350px;
+    }
+    
+    .gallery-reel {
+        gap: 15px;
+        padding-left: 20px; /* Espacio inicial */
+    }
+}

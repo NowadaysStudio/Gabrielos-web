@@ -33,6 +33,62 @@ a { text-decoration: none; color: inherit; }
 ul { list-style: none; }
 img { width: 100%; display: block; }
 
+/* --- BARRA DE ANUNCIOS (MARQUEE) --- */
+.announcement-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    background-color: var(--accent-color);
+    color: #000;
+    z-index: 2000;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #b88235;
+    font-family: var(--font-head);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+.marquee-track {
+    display: flex;
+    white-space: nowrap;
+    animation: scroll-left 25s linear infinite;
+    width: max-content;
+}
+
+.announcement-bar:hover .marquee-track {
+    animation-play-state: paused; 
+}
+
+.marquee-content {
+    display: flex;
+    align-items: center;
+}
+
+.marquee-content span {
+    padding: 0 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.marquee-content .divider {
+    color: #000;
+    opacity: 0.5;
+    font-size: 1.2rem;
+    padding: 0;
+}
+
+@keyframes scroll-left {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); } 
+}
+
 /* --- Utilidades --- */
 .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
 .text-gold { color: var(--accent-color); }
@@ -61,7 +117,10 @@ img { width: 100%; display: block; }
 
 /* --- Navegación --- */
 .navbar {
-    position: fixed; top: 0; width: 100%;
+    position: fixed; 
+    /* Ajuste para que quede debajo de la barra de anuncios */
+    top: 35px; 
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.95);
     padding: 20px 0; z-index: 1000;
     border-bottom: 1px solid #222;
@@ -224,20 +283,18 @@ img { width: 100%; display: block; }
     justify-content: center;
 }
 
-/* --- CAMBIO SUTIL: Fuente aumentada pero no gigante --- */
 .hero-content-left .review-text {
-    font-size: 1.15rem; /* Aumentado sutilmente */
-    color: #ffffff;    /* Blanco puro */
+    font-size: 1.15rem;
+    color: #ffffff;
     margin: 20px 0;
     font-style: italic;
-    line-height: 1.5;  /* Buen espaciado */
+    line-height: 1.5;
 }
 
 .hero-content-left .username {
-    font-size: 1.1rem; /* Aumentado sutilmente */
-    color: #ffffff;    /* Blanco puro */
+    font-size: 1.1rem;
+    color: #ffffff;
 }
-/* ----------------------------------------------------- */
 
 .hero-images-right {
     flex-basis: 45%;
@@ -262,19 +319,9 @@ img { width: 100%; display: block; }
 }
 
 @media (max-width: 900px) {
-    /* 1. Invertir orden */
     .hero-card { flex-direction: column-reverse; }
-    
-    /* 2. Reducir margen inferior de imágenes */
     .hero-images-right { height: 300px; flex-basis: auto; width: 100%; margin-bottom: 0px; }
-
-    /* 3. Reducir padding en móvil */
-    .hero-content-left {
-        padding: 20px;
-        padding-top: 15px;
-    }
-
-    /* 4. Ajuste tamaño móvil para evitar que se vea muy grande */
+    .hero-content-left { padding: 20px; padding-top: 15px; }
     .hero-content-left .review-text { font-size: 1rem; }
     .hero-content-left .username { font-size: 1rem; }
 }
@@ -306,12 +353,10 @@ img { width: 100%; display: block; }
 .card-image img { width: 100%; display: block; }
 .card-content { padding: 20px; }
 
-/* Spacers para efecto "desigual" */
 .spacer-s { margin-bottom: 10px; }
 .spacer-m { margin-bottom: 30px; }
 .spacer-l { margin-bottom: 50px; }
 
-/* Elementos comunes de reviews */
 .user-header { display: flex; align-items: center; margin-bottom: 15px; }
 .avatar-circle { width: 40px; height: 40px; background-color: var(--accent-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #000; margin-right: 12px; font-size: 1.1rem; }
 .user-info { display: flex; flex-direction: column; }

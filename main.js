@@ -1,5 +1,40 @@
 document.addEventListener('DOMContentLoaded', () => {
     
+    // --- 0. INYECCIÓN DEL MARQUEE (Global en todas las páginas) ---
+    const injectMarquee = () => {
+        const marqueeHTML = `
+        <div class="announcement-bar">
+            <div class="marquee-track">
+                <div class="marquee-content">
+                    <span><i class="fas fa-wine-glass"></i> YA CONTAMOS CON VENTA DE ALCOHOL</span>
+                    <span class="divider">•</span>
+                    <span><i class="fas fa-motorcycle"></i> SERVICIO A DOMICILIO DISPONIBLE</span>
+                    <span class="divider">•</span>
+                    <span><i class="fas fa-drumstick-bite"></i> JUEVES DE BONELESS 2X1</span>
+                    <span class="divider">•</span>
+                    <span>RESERVA TU POSADA CON NOSOTROS</span>
+                    <span class="divider">•</span>
+                </div>
+                <div class="marquee-content">
+                    <span><i class="fas fa-wine-glass"></i> YA CONTAMOS CON VENTA DE ALCOHOL</span>
+                    <span class="divider">•</span>
+                    <span><i class="fas fa-motorcycle"></i> SERVICIO A DOMICILIO DISPONIBLE</span>
+                    <span class="divider">•</span>
+                    <span><i class="fas fa-drumstick-bite"></i> JUEVES DE BONELESS 2X1</span>
+                    <span class="divider">•</span>
+                    <span>RESERVA TU POSADA CON NOSOTROS</span>
+                    <span class="divider">•</span>
+                </div>
+            </div>
+        </div>
+        `;
+        // Inyectar al principio del body
+        document.body.insertAdjacentHTML('afterbegin', marqueeHTML);
+    };
+
+    // Ejecutar inyección
+    injectMarquee();
+
     // --- 1. LÓGICA DE NAVEGACIÓN Y MENU HAMBURGUESA ---
     const hamburger = document.querySelector('.hamburger');
     const navLinks = document.querySelector('.nav-links');
@@ -149,7 +184,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const fullName = `${review.name} ${review.lastname}`;
 
             if (review.isHero) {
-                // Renderizar Hero Card (Horizontal) - FORMATO ACTUALIZADO
+                // Renderizar Hero Card (Horizontal)
                 const heroHtml = `
                     <div class="hero-card fade-in-up">
                         <div class="hero-content-left">
@@ -181,7 +216,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
             } else {
                 // Renderizar Tarjeta Vertical (Masonry)
-                // Se agregan clases 'spacer' para variar alturas
                 const extraClass = review.text.length < 60 ? 'spacer-l' : (review.text.length < 100 ? 'spacer-m' : '');
                 
                 const cardHtml = `
@@ -221,12 +255,9 @@ document.addEventListener('DOMContentLoaded', () => {
         newCards.forEach(el => observer.observe(el));
     }
 
-    // --- 7. LÓGICA DE LIKES (Delegación de eventos para elementos dinámicos) ---
-    // Usamos delegación porque las tarjetas se crearon dinámicamente
+    // --- 7. LÓGICA DE LIKES ---
     document.body.addEventListener('click', function(e) {
-        // Buscar el botón más cercano al click (por si se da click en el icono y no en el botón)
         const btn = e.target.closest('.like-btn');
-        
         if (btn) {
             const icon = btn.querySelector('i');
             const countSpan = btn.querySelector('.like-count');
@@ -252,51 +283,38 @@ document.addEventListener('DOMContentLoaded', () => {
 // --- Lógica Galería Infinita (Auto-Scroll) ---
 document.addEventListener('DOMContentLoaded', () => {
     const reel = document.querySelector('.gallery-reel');
-    
     if (reel) {
-        // 1. Clonar elementos para crear ilusión de infinitud
         const items = Array.from(reel.children);
         items.forEach(item => {
             const clone = item.cloneNode(true);
             reel.appendChild(clone);
         });
 
-        // Variables de control
         let scrollAmount = 0;
-        const speed = 0.5; // Velocidad del scroll (ajustable)
+        const speed = 0.5; 
         let isHovered = false;
         let animationId;
 
-        // 2. Función de animación
         const scrollLoop = () => {
             if (!isHovered) {
                 scrollAmount += speed;
-                
-                // Si llegamos a la mitad (fin del contenido original), resetear a 0
-                // scrollWidth / 2 funciona porque duplicamos el contenido exacto
                 if (scrollAmount >= reel.scrollWidth / 2) {
                     scrollAmount = 0;
                 }
-                
                 reel.scrollLeft = scrollAmount;
             } else {
-                // Sincronizar variable con scroll manual del usuario si pausó
                 scrollAmount = reel.scrollLeft;
             }
-            
             animationId = requestAnimationFrame(scrollLoop);
         };
-
-        // 3. Iniciar loop
         animationId = requestAnimationFrame(scrollLoop);
 
-        // 4. Control de Pausa (Desktop Hover / Mobile Touch)
         reel.addEventListener('mouseenter', () => isHovered = true);
         reel.addEventListener('mouseleave', () => isHovered = false);
         
         reel.addEventListener('touchstart', () => isHovered = true, {passive: true});
         reel.addEventListener('touchend', () => {
-            setTimeout(() => isHovered = false, 1000); // Pequeño delay antes de reanudar
+            setTimeout(() => isHovered = false, 1000); 
         });
     }
 });

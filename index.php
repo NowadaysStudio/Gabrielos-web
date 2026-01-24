@@ -1,36 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabrielos Pizza Artesanal | Inicio</title>
-    
-    <link rel="stylesheet" href="styles.css">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-</head>
-<body>
-
-    <nav class="navbar">
-        <div class="container nav-container">
-            <div class="logo">
-                <a href="index.html">GABRIELOS<span>PIZZA</span></a>
-            </div>
-            
-            <ul class="nav-links">
-                <li><a href="menu.html">Menú</a></li>
-                
-                <li><a href="experiencias.html">Experiencias</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-            
-            <div class="hamburger">
-                <i class="fas fa-bars"></i>
-            </div>
-        </div>
-    </nav>
+<?php 
+    $page_title = "Inicio"; 
+    include 'includes/header.php'; 
+?>
 
     <header class="hero">
         <div class="overlay"></div>
@@ -38,7 +9,7 @@
             <h1>Hechas artesanalmente con tradición... <span class="text-gold">donde la calidad es el ingrediente principal!</span></h1>
             <div style="margin-top: 30px;">
                 <button class="btn btn-outline" type="button">RESERVAR</button>
-                <a href="menu.html" class="btn btn-primary">VER MENÚ</a>
+                <a href="menu.php" class="btn btn-primary">VER MENÚ</a>
             </div>
         </div>
     </header>
@@ -98,7 +69,7 @@
                     <div class="promo-tag"><i class="fas fa-tv"></i> Zona Music</div>
                 </div>
 
-                <a href="contacto.html" class="btn btn-primary">RESERVAR</a>
+                <a href="contacto.php" class="btn btn-primary">RESERVAR</a>
             </div>
 
         </div>
@@ -131,17 +102,6 @@
         </div>
     </section>
 
-    <footer>
-        <div class="container footer-content">
-            <div class="social-icons">
-                <a href="https://www.facebook.com/gabrielospizzaartesanal/?locale=es_LA" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-whatsapp"></i></a>
-            </div>
-            <p>&copy; 2024 Gabrielos Pizza Artesanal. Todos los derechos reservados.</p>
-        </div>
-    </footer>
-
-    <script src="main.js"></script>
-</body>
-</html>
+<?php 
+    include 'includes/footer.php'; 
+?>

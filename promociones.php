@@ -1,32 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabrielos Pizza Artesanal | Promociones</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-</head>
-<body>
-
-    <nav class="navbar">
-        <div class="container nav-container">
-            <div class="logo">
-                <a href="index.html">GABRIELOS<span>PIZZA</span></a>
-            </div>
-            <ul class="nav-links">
-                <li><a href="menu.html">Menú</a></li>
-                
-                <li><a href="experiencias.html">Experiencias</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-            <div class="hamburger">
-                <i class="fas fa-bars"></i>
-            </div>
-        </div>
-    </nav>
-
+<?php 
+    $page_title = "Promociones"; 
+    include 'includes/header.php'; 
+?>
 
     <header class="page-header promo-header">
         <div class="overlay"></div>
@@ -47,7 +22,7 @@
                         <span class="old-price">$350</span>
                         <span class="new-price">$199<small>/persona</small></span>
                     </div>
-                    <a href="contacto.html" class="btn btn-primary">RESERVAR MESA</a>
+                    <a href="contacto.php" class="btn btn-primary">RESERVAR MESA</a>
                 </div>
                 <div class="promo-timer">
                     <p>La oferta termina en:</p>
@@ -75,7 +50,7 @@
                     <div class="card-body">
                         <h3>FESTEJA TU CUMPLEAÑOS</h3>
                         <p>¡El cumpleañero no paga! En mesas de 5 o más personas, tu consumo de alimentos es cortesía de la casa. Incluye postre especial.</p>
-                        <a href="contacto.html" class="btn-link">RESERVAR AHORA <i class="fas fa-arrow-right"></i></a>
+                        <a href="contacto.php" class="btn-link">RESERVAR AHORA <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -87,7 +62,7 @@
                     <div class="card-body">
                         <h3>PAQUETE EJECUTIVO</h3>
                         <p>Perfecto para la oficina. Pizza individual + Ensalada del día + Refresco. La pausa que tu equipo necesita.</p>
-                        <a href="menu.html" class="btn-link">VER MENÚ <i class="fas fa-arrow-right"></i></a>
+                        <a href="menu.php" class="btn-link">VER MENÚ <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -99,7 +74,7 @@
                     <div class="card-body">
                         <h3>PIZZA & DRINKS</h3>
                         <p>En la compra de cualquier pizza Grande o Familiar, llévate el cubetazo de cerveza nacional a mitad de precio.</p>
-                        <a href="contacto.html" class="btn-link">VISÍTANOS <i class="fas fa-arrow-right"></i></a>
+                        <a href="contacto.php" class="btn-link">VISÍTANOS <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -111,17 +86,4 @@
         </div>
     </section>
 
-    <footer>
-        <div class="container footer-content">
-            <div class="social-icons">
-                <a href="https://www.facebook.com/gabrielospizzaartesanal/?locale=es_LA" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-whatsapp"></i></a>
-            </div>
-            <p>&copy; 2024 Gabrielos Pizza Artesanal. Todos los derechos reservados.</p>
-        </div>
-    </footer>
-
-    <script src="main.js"></script>
-</body>
-</html>
+<?php include 'includes/footer.php'; ?>

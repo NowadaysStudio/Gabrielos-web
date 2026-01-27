@@ -1,32 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabrielos Pizza Artesanal | Contacto</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-</head>
-<body>
-
-    <nav class="navbar">
-        <div class="container nav-container">
-            <div class="logo">
-                <a href="index.html">GABRIELOS<span>PIZZA</span></a>
-            </div>
-            <ul class="nav-links">
-                <li><a href="menu.html">Menú</a></li>
-
-                <li><a href="experiencias.html">Experiencias</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-            <div class="hamburger">
-                <i class="fas fa-bars"></i>
-            </div>
-        </div>
-    </nav>
-
+<?php 
+    $page_title = "Contacto"; 
+    include 'includes/header.php'; 
+?>
 
     <header class="page-header contact-header">
         <div class="overlay"></div>
@@ -73,7 +48,7 @@
 
     <section class="map-section">
         <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.949542910508!2d-100.31493432387069!3d25.772230108168593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86629386e4424005%3A0xcb95e2c7d5e6bbff!2sGabrielo&#39;s%20pizzeria!5e0!3m2!1ses-419!2smx!4v1767553243791!5m2!1ses-419!2smx" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.949542910508!2d-100.31493432387069!3d25.772230108168593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86629386e4424005%3A0xcb95e2c7d5e6bbff!2sGabrielo's%20pizzeria!5e0!3m2!1ses-419!2smx!4v1767553243791!5m2!1ses-419!2smx" 
             width="100%" 
             height="450" 
             style="border:0;" 
@@ -119,17 +94,4 @@
         </div>
     </section>
 
-    <footer>
-        <div class="container footer-content">
-            <div class="social-icons">
-                <a href="https://www.facebook.com/gabrielospizzaartesanal/?locale=es_LA" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-whatsapp"></i></a>
-            </div>
-            <p>&copy; 2024 Gabrielos Pizza Artesanal. Todos los derechos reservados.</p>
-        </div>
-    </footer>
-
-    <script src="main.js"></script>
-</body>
-</html>
+<?php include 'includes/footer.php'; ?>

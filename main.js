@@ -34,23 +34,35 @@ document.addEventListener('DOMContentLoaded', () => {
     const menuItems = document.querySelectorAll('.menu-item');
 
     if(filterBtns.length > 0) {
+        // Función para aplicar filtro
+        const applyFilter = (filterValue) => {
+            menuItems.forEach(item => {
+                const itemCategory = item.getAttribute('data-category');
+                if(filterValue === 'all' || filterValue === itemCategory) {
+                    item.classList.remove('hide');
+                    item.classList.add('fade-in-up');
+                } else {
+                    item.classList.add('hide');
+                    item.classList.remove('fade-in-up');
+                }
+            });
+        };
+
+        // Ejecutar filtro inicial al cargar la página
+        const activeBtn = document.querySelector('.filter-btn.active');
+        if(activeBtn) {
+            const initialFilter = activeBtn.getAttribute('data-filter');
+            applyFilter(initialFilter);
+        }
+
+        // Evento clic en botones
         filterBtns.forEach(btn => {
             btn.addEventListener('click', () => {
                 filterBtns.forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
 
                 const filterValue = btn.getAttribute('data-filter');
-
-                menuItems.forEach(item => {
-                    const itemCategory = item.getAttribute('data-category');
-                    if(filterValue === 'all' || filterValue === itemCategory) {
-                        item.classList.remove('hide');
-                        item.classList.add('fade-in-up');
-                    } else {
-                        item.classList.add('hide');
-                        item.classList.remove('fade-in-up');
-                    }
-                });
+                applyFilter(filterValue);
             });
         });
     }
@@ -283,3 +295,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+

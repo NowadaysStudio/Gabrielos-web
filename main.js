@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { id: 12, name: "Aranza", lastname: "Tovar", time: "Hace 1 mes", text: "La atención y la comida no decepciona nunca", rating: 5, likes: 33 },
             { id: 13, name: "Geraldine", lastname: "González", time: "Hace 3 años", text: "Son unas pizzas deliciosas estilo Chicago. Son muy llenadoras. El lugar es pequeño y muy bonito. Recomiendo mucho", rating: 5, likes: 15 },
             { id: 14, name: "Ángel", lastname: "Murillo", time: "Hace 5 años", text: "Buen trato, muy rica comida. Precios medios no altos pero la comida vale la pena.", rating: 5, likes: 28 },
-            { id: 15, name: "Ana", lastname: "Sofía", time: "Hace 5 años", text: "Buena pizza. El spaghetti esta riquísimo uff. La caja redonda muy original y linda", rating: 5, likes: 60 },
+            
             { id: 16, name: "Gabuworld", lastname: "", time: "Hace 6 años", text: "Pizza super deliciosa, en verdad me encanto y el precio accesible. No se tardaron nada, como es costumbre en otras pizzerias. Personal super amable y el lugar lindo. 👏 …", rating: 5, likes: 5 },
             { id: 17, name: "Alfonso", lastname: "M.", time: "Hace 1 año", text: "Muy bonito lugar, el lugar limpio y todo ordenado. El personal es bastante atento. Pedimos una pizza de pepperoni y estaba muy rica. Lo recomiendo mucho.", rating: 5, likes: 37 },
             { id: 18, name: "Patricia", lastname: "Chávez", time: "Hace 6 años", text: "Las pizzas son muy ricas y la atención es buena. Puedes ver todo el proceso de como preparan tu pizza.", rating: 4, likes: 72 },

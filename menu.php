@@ -33,677 +33,771 @@
                     <div class="menu-item fade-in-up" data-category="Pizzas Artesanales">
                         <div class="menu-img">
                             <img src="imgmenu/pizzasarte/pepperoniclasisca.jpg" alt="Clásica de Pepperoni">
-                            <span class="price">$165</span>
+                            <span class="price">$199</span>
                         </div>
                         <div class="menu-info">
                             <h3>CLÁSICA DE PEPPERONI</h3>
-                            <p>Salsa de tomate casera, mozzarella premium y doble porción de pepperoni.</p>
+                            <p>Queso mozzarella, salsa de la casa y pepperoni.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Pizzas Artesanales">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80" alt="Pizza Mozzarella">
-                            <span class="price">$165</span>
+                            <img src="imgmenu/pizzasarte/mozzarella.jpeg" alt="Pizza Mozzarella">
+                            <span class="price">$199</span>
                         </div>
                         <div class="menu-info">
                             <h3>PIZZA MOZZARELLA</h3>
-                            <p>Tomates cherry, albahaca fresca y mozzarella.</p>
+                            <p>Queso mozzarella y salsa de la casa.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Pizzas Artesanales">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=800&q=80" alt="Pizza 1 Ingrediente">
-                            <span class="price">$165</span>
+                            <img src="imgmenu/pizzasarte/pepperoniclasisca.jpg" alt="Pizza 1 Ingrediente">
+                            <span class="price">$199</span>
                         </div>
                         <div class="menu-info">
                             <h3>PIZZA 1 INGREDIENTE</h3>
-                            <p>Elige tu ingrediente favorito.</p>
+                            <p>Queso mozzarella, salsa de la casa y un ingrediente a elegir.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Pizzas Artesanales">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80" alt="Pizza 2 Ingredientes">
-                            <span class="price">$209</span>
+                            <img src="imgmenu/pizzasarte/2ing.jpeg" alt="Pizza 2 Ingredientes">
+                            <span class="price">$225</span>
                         </div>
                         <div class="menu-info">
                             <h3>PIZZA 2 INGREDIENTES</h3>
-                            <p>Combina dos ingredientes a tu elección.</p>
+                            <p>Queso mozzarella, salsa de la casa y dos ingredientes a elegir.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Pizzas Artesanales">
                         <div class="menu-img">
                             <img src="imgmenu/pizzasarte/lovers.jpeg" alt="Pepperoni Lovers">
-                            <span class="price">$240</span>
+                            <span class="price">$255</span>
                         </div>
                         <div class="menu-info">
                             <h3>PEPPERONI LOVERS</h3>
-                            <p>Extra pepperoni y extra queso.</p>
+                            <p>Con queso y MUCHO MUCHO PEPPERONI.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Pizzas Artesanales">
                         <div class="menu-img">
                             <img src="imgmenu/pizzasarte/gabrielos.jpeg" alt="Gabrielos Pizza">
-                            <span class="price">$209</span>
+                            <span class="price">$225</span>
                         </div>
                         <div class="menu-info">
                             <h3>GABRIELOS PIZZA</h3>
-                            <p>La especialidad de la casa.</p>
+                            <p>Champiñones frescos y pepperoni.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Pizzas Artesanales">
                         <div class="menu-img">
                             <img src="imgmenu/pizzasarte/meat.jpeg" alt="Meat Lovers">
-                            <span class="price">$225</span>
+                            <span class="price">$239</span>
                         </div>
                         <div class="menu-info">
                             <h3>MEAT LOVERS</h3>
-                            <p>Carnes frías, pepperoni y tocino.</p>
+                            <p>Salchica italiana, pepperoni y tocino.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Pizzas Artesanales">
                         <div class="menu-img">
                             <img src="imgmenu/pizzasarte/americana.jpeg" alt="Americana">
-                            <span class="price">$209</span>
+                            <span class="price">$225</span>
                         </div>
                         <div class="menu-info">
                             <h3>AMERICANA</h3>
-                            <p>Clásico estilo americano.</p>
+                            <p>Pepperoni y tocino.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Pizzas Artesanales">
                         <div class="menu-img">
                             <img src="imgmenu/pizzasarte/chorizo.jpeg" alt="Pizza con Chorizo">
-                            <span class="price">$240</span>
+                            <span class="price">$255</span>
                         </div>
                         <div class="menu-info">
                             <h3>PIZZA CON CHORIZO</h3>
-                            <p>Chorizo artesanal y mozzarella.</p>
+                            <p>Chorizo con hasta dos ingredientes a elegir.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Pizzas Artesanales">
                         <div class="menu-img">
                             <img src="imgmenu/pizzasarte/hawai.jpeg" alt="Hawaiana">
-                            <span class="price">$209</span>
+                            <span class="price">$225</span>
                         </div>
                         <div class="menu-info">
                             <h3>HAWAIANA</h3>
-                            <p>Piña, jamón y queso.</p>
+                            <p>Jamón de pavo y piña.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Pizzas Artesanales">
                         <div class="menu-img">
                             <img src="imgmenu/pizzasarte/suprema.jpeg" alt="Suprema">
-                            <span class="price">$229</span>
+                            <span class="price">$245</span>
                         </div>
                         <div class="menu-info">
                             <h3>SUPREMA</h3>
-                            <p>Vegetales frescos y carnes seleccionadas.</p>
+                            <p>Pepperoni, salchicha, champiñon, chile morron, cebolla y aceituna.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Pizzas Artesanales">
                         <div class="menu-img">
                             <img src="imgmenu/pizzasarte/conpollo.jpeg" alt="Pizza con Pollo">
-                            <span class="price">$240</span>
+                            <span class="price">$255</span>
                         </div>
                         <div class="menu-info">
                             <h3>PIZZA CON POLLO</h3>
-                            <p>Pollo sazonado y queso fundido.</p>
+                            <p>Pollo a la plancha, tocino y champiñon.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Pizzas Artesanales">
                         <div class="menu-img">
                             <img src="imgmenu/pizzasarte/pizzaboneless.jpeg" alt="Pizza Boneless">
-                            <span class="price">$240</span>
+                            <span class="price">$255</span>
                         </div>
                         <div class="menu-info">
                             <h3>PIZZA BONELESS</h3>
-                            <p>Cubierta con boneless bañados en salsa.</p>
+                            <p>Delicia combinación de pizza y boneless bañados en salsa buffalo.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Pizzas Artesanales">
                         <div class="menu-img">
                             <img src="imgmenu/pizzasarte/pizzaalfredo.jpeg" alt="Pizza Alfredo">
-                            <span class="price">$249</span>
+                            <span class="price">$265</span>
                         </div>
                         <div class="menu-info">
                             <h3>PIZZA ALFREDO</h3>
-                            <p>Base de salsa Alfredo cremosa.</p>
+                            <p>Rica pizza con nuestra cremosa salsa alfredo con hasta dos ingredientes a elegir.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Pizzas Artesanales">
                         <div class="menu-img">
                             <img src="imgmenu/pizzasarte/alpastor.jpeg" alt="Pizza al Pastor">
-                            <span class="price">$240</span>
+                            <span class="price">$255</span>
                         </div>
                         <div class="menu-info">
                             <h3>PIZZA AL PASTOR</h3>
-                            <p>Carne al pastor, piña y cebolla.</p>
+                            <p>Carne de trompo con hasta dos ingredientes a elegir.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Pizzas Artesanales">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1544982503-9f984c14501a?auto=format&fit=crop&w=800&q=80" alt="Pizza Chicharrón de la Ramos">
-                            <span class="price">$240</span>
+                            <img src="imgmenu/pizzasarte/ramos.jpeg" alt="Pizza Chicharrón de la Ramos">
+                            <span class="price">$255</span>
                         </div>
                         <div class="menu-info">
                             <h3>PIZZA CHICHARRÓN DE LA RAMOS</h3>
-                            <p>Chicharrón prensado de la Ramos.</p>
+                            <p>Chicharrón de la ramos con hasta dos ingredientes a elegir.</p>
                         </div>
                     </div>
+
+
 
                     <div class="menu-item fade-in-up" data-category="Especialidades">
                         <div class="menu-img">
                             <img src="imgmenu/pizzasarte/norteña.jpeg" alt="Piña Norteña">
-                            <span class="price">$289</span>
+                            <span class="price">$299</span>
                         </div>
                         <div class="menu-info">
-                            <h3>PIÑA NORTEÑA</h3>
-                            <p>Ingredientes premium del norte.</p>
+                            <h3>PIZZA NORTEÑA</h3>
+                            <p>Chicharrón de la ramos, pastor y tocino.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Especialidades">
                         <div class="menu-img">
                             <img src="imgmenu/pizzasarte/chicago.jpeg" alt="Chicago">
-                            <span class="price">$480</span>
+                            <span class="price">$495</span>
                         </div>
                         <div class="menu-info">
                             <h3>CHICAGO</h3>
-                            <p>Deep Dish Pizza con bordes altos.</p>
+                            <p>La especialidad de la casa con hasta 3 ingredientes a elegir.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Especialidades">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=800&q=80" alt="Chicago Pepperoni Lovers">
-                            <span class="price">$480</span>
+                            <img src="imgmenu/pizzasarte/chicagolovers.jpeg" alt="Chicago Pepperoni Lovers">
+                            <span class="price">$495</span>
                         </div>
                         <div class="menu-info">
                             <h3>CHICAGO PEPPERONI LOVERS</h3>
-                            <p>Chicago cargada de pepperoni.</p>
+                            <p>La especialidad de la casa con MUCHO MUCHO pepperoni</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Especialidades">
                         <div class="menu-img">
                             <img src="imgmenu/pizzasarte/rellena.jpeg" alt="Pizza Rellena">
-                            <span class="price">$350</span>
+                            <span class="price">$395</span>
                         </div>
                         <div class="menu-info">
                             <h3>PIZZA RELLENA</h3>
-                            <p>Masa rellena de queso.</p>
+                            <p>Pizza rellena con hasta 3 ingredientes a elegir (ahora con más queso).</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Especialidades">
                         <div class="menu-img">
-                            <img src="imgmenu/pizzasarte/rellenalovers.jpeg" alt="Pizza Rellena Pepperoni Lovers">
-                            <span class="price">$350</span>
+                            <img src="imgmenu/pizzasarte/rellnasintapa.jpeg" alt="Pizza Rellena Pepperoni Lovers">
+                            <span class="price">$395</span>
                         </div>
                         <div class="menu-info">
-                            <h3>PIZZA RELLENA PEPPERONI LOVERS</h3>
-                            <p>Rellena de queso y pepperoni.</p>
+                            <h3>PIZZA RELLENA (SIN TAPA)</h3>
+                            <p>Pizza rellena con menos pan, mismo sabor diferente presentación.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="menu-item fade-in-up" data-category="Especialidades">
+                        <div class="menu-img">
+                            <img src="imgmenu/pizzasarte/lasg.jpeg" alt="LASAGNA">
+                            <span class="price">$270</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>LASAGNA (350g)</h3>
+                            <p>Combinación de capas de pasta con queso rricota, queso mozzarella, carne a la bolognesa, parmesano y salsa pomodoro, acompañada con pan de ajo.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Especialidades">
                         <div class="menu-img">
                             <img src="imgmenu/pizzasarte/calzone.jpeg" alt="Calzone">
-                            <span class="price">$95</span>
+                            <span class="price">$99</span>
                         </div>
                         <div class="menu-info">
                             <h3>CALZONE</h3>
-                            <p>Masa doblada rellena de ingredientes italianos.</p>
+                            <p>Tamaño individual con hasta 3 ingredientes a elegir.</p>
                         </div>
                     </div>
 
+
+                    <div class="menu-item fade-in-up" data-category="Especialidades">
+                        <div class="menu-img">
+                            <img src="imgmenu/pizzasarte/phi1.jpeg" alt="PIZZA PHILADELPHIA 1">
+                            <span class="price">$259</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>PIZZA PHILADELPHIA 1</h3>
+                            <p>(190g) De queso Philadelphia, queso mozzarella, bañada en nuestra salsa de tomate.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Especialidades">
+                        <div class="menu-img">
+                            <img src="imgmenu/pizzasarte/phi2.jpeg" alt="PIZZA PHILADELPHIA 2">
+                            <span class="price">$279</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>PIZZA PHILADELPHIA 2</h3>
+                            <p>(190g) De queso Philadelphia, queso mozzarella, bañada en nuestra salsa de tomate.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Especialidades">
+                        <div class="menu-img">
+                            <img src="imgmenu/pizzasarte/phibon.jpeg" alt="PIZZA PHILADELPHIA PEPPERONI LOVERS">
+                            <span class="price">$319</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>PIZZA PHILADELPHIA PEPPERONI LOVERS</h3>
+                            <p>(190g) De queso Philadelphia, queso mozzarella, bañada en nuestra salsa de tomate.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Especialidades">
+                        <div class="menu-img">
+                            <img src="imgmenu/pizzasarte/phibon.jpeg" alt="PIZZA PHILADELPHIA PEPPERONI LOVERS">
+                            <span class="price">$319</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>PIZZA PHILADELPHIA BONELESS</h3>
+                            <p>(190g) De queso Philadelphia, queso mozzarella, bañada en nuestra salsa de tomate.</p>
+                        </div>
+                    </div>
+
+
                     <div class="menu-item fade-in-up" data-category="Pastas">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1645112481338-35624dc8650a?auto=format&fit=crop&w=800&q=80" alt="Pasta Alfredo Sencilla">
-                            <span class="price">$149</span>
+                            <img src="imgmenu/pizzasarte/pastasne.jpeg" alt="Pasta Alfredo Sencilla">
+                            <span class="price">$159</span>
                         </div>
                         <div class="menu-info">
                             <h3>PASTA ALFREDO SENCILLA</h3>
-                            <p>Salsa Alfredo cremosa.</p>
+                            <p>Deliciosa fettuccini bañado con cremosa salsa de queso parmesano y ajo.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Pastas">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=800&q=80" alt="Pasta Alfredo con Pollo">
-                            <span class="price">$199</span>
+                            <img src="imgmenu/pizzasarte/pastapollo.jpeg" alt="Pasta Alfredo con Pollo">
+                            <span class="price">$209</span>
                         </div>
                         <div class="menu-info">
                             <h3>PASTA ALFREDO CON POLLO</h3>
-                            <p>Salsa Alfredo con pechuga de pollo.</p>
+                            <p>Deliciosa fettuccini bañado con cremosa salsa de queso parmesano y ajo.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Pastas">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1626844131082-256783844137?auto=format&fit=crop&w=800&q=80" alt="Pasta Alfredo con Bolognesa">
-                            <span class="price">$189</span>
-                        </div>
-                        <div class="menu-info">
-                            <h3>PASTA ALFREDO CON BOLOGNESA</h3>
-                            <p>Salsa Alfredo con carne bolognesa.</p>
-                        </div>
-                    </div>
-
-                    <div class="menu-item fade-in-up" data-category="Pastas">
-                        <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?auto=format&fit=crop&w=800&q=80" alt="Pasta Alfredo con Champiñones">
-                            <span class="price">$170</span>
-                        </div>
-                        <div class="menu-info">
-                            <h3>PASTA ALFREDO CON CHAMPIÑONES</h3>
-                            <p>Salsa Alfredo con champiñones frescos.</p>
-                        </div>
-                    </div>
-
-                    <div class="menu-item fade-in-up" data-category="Pastas">
-                        <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&w=800&q=80" alt="Pasta Alfredo con Camarones">
-                            <span class="price">$220</span>
-                        </div>
-                        <div class="menu-info">
-                            <h3>PASTA ALFREDO CON CAMARONES</h3>
-                            <p>Salsa Alfredo con camarones.</p>
-                        </div>
-                    </div>
-
-                    <div class="menu-item fade-in-up" data-category="Pastas">
-                        <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1595295333158-4742f28fbd85?auto=format&fit=crop&w=800&q=80" alt="Pasta Mama Rosa Sencilla">
-                            <span class="price">$149</span>
-                        </div>
-                        <div class="menu-info">
-                            <h3>PASTA MAMA ROSA SENCILLA</h3>
-                            <p>Salsa rosa especial de la casa.</p>
-                        </div>
-                    </div>
-
-                    <div class="menu-item fade-in-up" data-category="Pastas">
-                        <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=800&q=80" alt="Pasta Mama Rosa con Pollo">
+                            <img src="imgmenu/pizzasarte/pastasne.jpeg" alt="Pasta Alfredo con Bolognesa">
                             <span class="price">$199</span>
                         </div>
                         <div class="menu-info">
-                            <h3>PASTA MAMA ROSA CON POLLO</h3>
-                            <p>Salsa rosa con pollo.</p>
+                            <h3>PASTA ALFREDO CON BOLOGNESA</h3>
+                            <p>Deliciosa fettuccini bañado con cremosa salsa de queso parmesano y ajo.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Pastas">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=800&q=80" alt="Pasta Mama Rosa con Bolognesa">
-                            <span class="price">$189</span>
+                            <img src="imgmenu/pizzasarte/pastachamp.jpeg" alt="Pasta Alfredo con Champiñones">
+                            <span class="price">$180</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>PASTA ALFREDO CON CHAMPIÑONES</h3>
+                            <p>Deliciosa fettuccini bañado con cremosa salsa de queso parmesano y ajo.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Pastas">
+                        <div class="menu-img">
+                            <img src="imgmenu/pizzasarte/pastacamarones.jpeg" alt="Pasta Alfredo con Camarones">
+                            <span class="price">$230</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>PASTA ALFREDO CON CAMARONES</h3>
+                            <p>Deliciosa fettuccini bañado con cremosa salsa de queso parmesano y ajo.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Pastas">
+                        <div class="menu-img">
+                            <img src="imgmenu/pizzasarte/rosasen.jpeg" alt="Pasta Mama Rosa Sencilla">
+                            <span class="price">$159</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>PASTA MAMA ROSA SENCILLA</h3>
+                            <p>Combinación de salsa pomodoro y crema alfredo sobre fettuccini.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Pastas">
+                        <div class="menu-img">
+                            <img src="imgmenu/pizzasarte/rosasen.jpeg" alt="Pasta Mama Rosa con Pollo">
+                            <span class="price">$209</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>PASTA MAMA ROSA CON POLLO</h3>
+                            <p>Combinación de salsa pomodoro y crema alfredo sobre fettuccini.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Pastas">
+                        <div class="menu-img">
+                            <img src="imgmenu/pizzasarte/rosasen.jpeg" alt="Pasta Mama Rosa con Bolognesa">
+                            <span class="price">$199</span>
                         </div>
                         <div class="menu-info">
                             <h3>PASTA MAMA ROSA CON BOLOGNESA</h3>
-                            <p>Salsa rosa con carne.</p>
+                            <p>Combinación de salsa pomodoro y crema alfredo sobre fettuccini.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Pastas">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?auto=format&fit=crop&w=800&q=80" alt="Pasta Mama Rosa con Champiñones">
-                            <span class="price">$170</span>
+                            <img src="imgmenu/pizzasarte/mamachamp.jpeg" alt="Pasta Mama Rosa con Champiñones">
+                            <span class="price">$180</span>
                         </div>
                         <div class="menu-info">
                             <h3>PASTA MAMA ROSA CON CHAMPIÑONES</h3>
-                            <p>Salsa rosa con champiñones.</p>
+                            <p>Combinación de salsa pomodoro y crema alfredo sobre fettuccini.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Pastas">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&w=800&q=80" alt="Pasta Mama Rosa con Camarones">
-                            <span class="price">$220</span>
+                            <img src="imgmenu/pizzasarte/rosasen.jpeg" alt="Pasta Mama Rosa con Camarones">
+                            <span class="price">$230</span>
                         </div>
                         <div class="menu-info">
                             <h3>PASTA MAMA ROSA CON CAMARONES</h3>
-                            <p>Salsa rosa con camarones.</p>
+                            <p>Combinación de salsa pomodoro y crema alfredo sobre fettuccini.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Pastas">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1573145166665-6898555c4217?auto=format&fit=crop&w=800&q=80" alt="Pan de Ajo (1 pz)">
+                            <img src="imgmenu/pizzasarte/ajo.jpeg" alt="Pan de Ajo (1 pz)">
                             <span class="price">$15</span>
                         </div>
                         <div class="menu-info">
                             <h3>PAN DE AJO (1 PZ)</h3>
-                            <p>Crujiente pan con mantequilla de ajo.</p>
+                            <p></p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Pastas">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1573145166665-6898555c4217?auto=format&fit=crop&w=800&q=80" alt="Pan de Ajo con Pasta (1 pz)">
+                            <img src="imgmenu/pizzasarte/ajo.jpeg" alt="Pan de Ajo con Pasta (1 pz)">
                             <span class="price">$10</span>
                         </div>
                         <div class="menu-info">
                             <h3>PAN DE AJO CON PASTA (1 PZ)</h3>
-                            <p>Acompañamiento ideal para tu pasta.</p>
+                            <p>En la compra de una pasta o spaghetti llevate la pieza de pan en $10</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Wings & Boneless">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&w=800&q=80" alt="Alitas 570g">
-                            <span class="price">$199</span>
-                        </div>
-                        <div class="menu-info">
-                            <h3>ALITAS 570G</h3>
-                            <p>Alitas crujientes con tu salsa favorita.</p>
-                        </div>
-                    </div>
-
-                    <div class="menu-item fade-in-up" data-category="Wings & Boneless">
-                        <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1608039755401-742074f0548d?auto=format&fit=crop&w=800&q=80" alt="Alitas 810g">
-                            <span class="price">$249</span>
-                        </div>
-                        <div class="menu-info">
-                            <h3>ALITAS 810G</h3>
-                            <p>Porción para compartir.</p>
-                        </div>
-                    </div>
-
-                    <div class="menu-item fade-in-up" data-category="Wings & Boneless">
-                        <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1527477396000-e27163b481c2?auto=format&fit=crop&w=800&q=80" alt="Alitas 1,040g">
-                            <span class="price">$299</span>
-                        </div>
-                        <div class="menu-info">
-                            <h3>ALITAS 1,040G</h3>
-                            <p>La porción más grande para el hambre voraz.</p>
-                        </div>
-                    </div>
-
-                    <div class="menu-item fade-in-up" data-category="Wings & Boneless">
-                        <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1626082927389-d52d83988aa9?auto=format&fit=crop&w=800&q=80" alt="Boneless 280g">
-                            <span class="price">$189</span>
-                        </div>
-                        <div class="menu-info">
-                            <h3>BONELESS 280G</h3>
-                            <p>Trozos de pechuga empanizados.</p>
-                        </div>
-                    </div>
-
-                    <div class="menu-item fade-in-up" data-category="Wings & Boneless">
-                        <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1569691105751-88df003de7a4?auto=format&fit=crop&w=800&q=80" alt="Boneless 450g">
+                            <img src="imgmenu/pizzasarte/ali5.jpeg" alt="Alitas 570g">
                             <span class="price">$259</span>
                         </div>
                         <div class="menu-info">
-                            <h3>BONELESS 450G</h3>
-                            <p>Porción grande de boneless.</p>
+                            <h3>ALITAS 570G</h3>
+                            <p>Alitas bañadas en la salsa de tu elección con zanahoria, apio y papas a la francesa (150g).</p>
                         </div>
                     </div>
 
-                    <div class="menu-item fade-in-up" data-category="Spaghettis">
+                    <div class="menu-item fade-in-up" data-category="Wings & Boneless">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1516100882582-76c9a586590c?auto=format&fit=crop&w=800&q=80" alt="Spaghetti con Salsa de Tomate">
-                            <span class="price">$85</span>
+                            <img src="imgmenu/pizzasarte/ali8.jpeg" alt="Alitas 810g">
+                            <span class="price">$299</span>
                         </div>
                         <div class="menu-info">
-                            <h3>SPAGHETTI CON SALSA DE TOMATE</h3>
-                            <p>Salsa pomodoro clásica.</p>
+                            <h3>ALITAS 810G</h3>
+                            <p>Alitas bañadas en la salsa de tu elección con zanahoria, apio y papas a la francesa (150g).</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Wings & Boneless">
+                        <div class="menu-img">
+                            <img src="imgmenu/pizzasarte/ali1k.jpeg" alt="Alitas 1,040g">
+                            <span class="price">$370</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>ALITAS 1,040G</h3>
+                            <p>Alitas bañadas en la salsa de tu elección con zanahoria, apio y papas a la francesa (150g).</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Wings & Boneless">
+                        <div class="menu-img">
+                            <img src="imgmenu/pizzasarte/bon280.jpeg" alt="Boneless 280g">
+                            <span class="price">$209</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>BONELESS 280G</h3>
+                            <p>Boneless bañadas en la salsa de tu elección con zanahoria, apio y papas a la francesa (150g).</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Wings & Boneless">
+                        <div class="menu-img">
+                            <img src="imgmenu/pizzasarte/bon4.jpeg" alt="Boneless 450g">
+                            <span class="price">$269</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>BONELESS 450G</h3>
+                            <p>Boneless bañadas en la salsa de tu elección con zanahoria, apio y papas a la francesa (150g).</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Wings & Boneless">
+                        <div class="menu-img">
+                            <img src="" alt="Tenders">
+                            <span class="price">$129</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>TENDERS (3pz)</h3>
+                            <p>Tenders acompañados con papas a la francesa.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Wings & Boneless">
+                        <div class="menu-img">
+                            <img src="" alt="Tenders">
+                            <span class="price">$189</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>TENDERS (5pz)</h3>
+                            <p>Tenders acompañador con papas a la francesa.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Spaghettis">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1598866594230-a7d127dddb91?auto=format&fit=crop&w=800&q=80" alt="Spaghetti Mozzarella">
+                            <img src="imgmenu/pizzasarte/spa.jpeg" alt="Spaghetti con Salsa de Tomate">
                             <span class="price">$95</span>
                         </div>
                         <div class="menu-info">
-                            <h3>SPAGHETTI MOZZARELLA</h3>
-                            <p>Con abundante queso mozzarella.</p>
+                            <h3>SPAGHETTI CON SALSA DE TOMATE</h3>
+                            <p>Orden de medio litro de spaghetti con salsa pomodoro.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Spaghettis">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1626844131082-256783844137?auto=format&fit=crop&w=800&q=80" alt="Spaghetti Bolognesa">
-                            <span class="price">$99</span>
+                            <img src="imgmenu/pizzasarte/spamoz.jpeg" alt="Spaghetti Mozzarella">
+                            <span class="price">$105</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>SPAGHETTI MOZZARELLA</h3>
+                            <p>Orden de medio litro de spaghetti con salsa pomodoro.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Spaghettis">
+                        <div class="menu-img">
+                            <img src="imgmenu/pizzasarte/spabog.jpeg" alt="Spaghetti Bolognesa">
+                            <span class="price">$109</span>
                         </div>
                         <div class="menu-info">
                             <h3>SPAGHETTI BOLOGNESA</h3>
-                            <p>Salsa de carne tradicional.</p>
+                            <p>Orden de medio litro de spaghetti con salsa pomodoro.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Spaghettis">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?auto=format&fit=crop&w=800&q=80" alt="Spaghetti Bolognesa y Mozzarella">
-                            <span class="price">$115</span>
+                            <img src="imgmenu/pizzasarte/spamozbo.jpeg" alt="Spaghetti Bolognesa y Mozzarella">
+                            <span class="price">$125</span>
                         </div>
                         <div class="menu-info">
                             <h3>SPAGHETTI BOLOGNESA Y MOZZARELLA</h3>
-                            <p>La combinación perfecta de carne y queso.</p>
+                            <p>Orden de medio litro de spaghetti con salsa pomodoro.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Spaghettis">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1556761223-4c4282c73f77?auto=format&fit=crop&w=800&q=80" alt="Spaghetti Champiñones y Mozzarella">
-                            <span class="price">$115</span>
+                            <img src="imgmenu/pizzasarte/spamozbo.jpeg" alt="Spaghetti Champiñones y Mozzarella">
+                            <span class="price">$125</span>
                         </div>
                         <div class="menu-info">
                             <h3>SPAGHETTI CHAMPIÑONES Y MOZZARELLA</h3>
-                            <p>Champiñones salteados y queso.</p>
+                            <p>Orden de medio litro de spaghetti con salsa pomodoro.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Spaghettis">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1573145166665-6898555c4217?auto=format&fit=crop&w=800&q=80" alt="Pan de Ajo (1 pz)">
+                            <img src="imgmenu/pizzasarte/ajo.jpeg" alt="Pan de Ajo (1 pz)">
                             <span class="price">$15</span>
                         </div>
                         <div class="menu-info">
                             <h3>PAN DE AJO (1 PZ)</h3>
-                            <p>Crujiente pan con ajo.</p>
+                            <p></p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Spaghettis">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1573145166665-6898555c4217?auto=format&fit=crop&w=800&q=80" alt="Pan de Ajo con Spaghetti (1 pz)">
+                            <img src="imgmenu/pizzasarte/ajo.jpeg" alt="Pan de Ajo con Spaghetti (1 pz)">
                             <span class="price">$10</span>
                         </div>
                         <div class="menu-info">
                             <h3>PAN DE AJO CON SPAGHETTI (1 PZ)</h3>
-                            <p>El complemento perfecto.</p>
+                            <p></p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Complementos">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1573082807974-09c4176646b9?auto=format&fit=crop&w=800&q=80" alt="Papas a la Francesa">
-                            <span class="price">$69</span>
+                            <img src="imgmenu/pizzasarte/papasen.jpeg" alt="Papas a la Francesa">
+                            <span class="price">$75</span>
                         </div>
                         <div class="menu-info">
                             <h3>PAPAS A LA FRANCESA</h3>
-                            <p>Doradas y crujientes.</p>
+                            <p>Orden de papas a la francesa</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Complementos">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1619881589316-56c7f9e6b587?auto=format&fit=crop&w=800&q=80" alt="Papas Limón Pimienta">
-                            <span class="price">$79</span>
-                        </div>
-                        <div class="menu-info">
-                            <h3>PAPAS LIMÓN PIMIENTA</h3>
-                            <p>Sazonadas con limón y pimienta.</p>
-                        </div>
-                    </div>
-
-                    <div class="menu-item fade-in-up" data-category="Complementos">
-                        <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1576107232684-1279f390859f?auto=format&fit=crop&w=800&q=80" alt="Papas con Queso Amarillo">
+                            <img src="imgmenu/pizzasarte/papasen.jpeg" alt="Papas Limón Pimienta">
                             <span class="price">$85</span>
                         </div>
                         <div class="menu-info">
-                            <h3>PAPAS CON QUESO AMARILLO</h3>
-                            <p>Bañadas en queso amarillo.</p>
+                            <h3>PAPAS LIMÓN PIMIENTA</h3>
+                            <p>Orden de papas sazonadas con limón y pimienta</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Complementos">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1585109649139-366815a0d713?auto=format&fit=crop&w=800&q=80" alt="Papas Gabrielos">
-                            <span class="price">$110</span>
+                            <img src="imgmenu/pizzasarte/papasqueso.jpeg" alt="Papas con Queso Amarillo">
+                            <span class="price">$89</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>PAPAS CON QUESO AMARILLO</h3>
+                            <p>Orden de papas bañadas en queso amarillo</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Complementos">
+                        <div class="menu-img">
+                            <img src="imgmenu/pizzasarte/papasgab.jpeg" alt="Papas Gabrielos">
+                            <span class="price">$115</span>
                         </div>
                         <div class="menu-info">
                             <h3>PAPAS GABRIELOS</h3>
-                            <p>Preparación especial de la casa.</p>
+                            <p>(280g) Orden de papas a la francesa, bañadas en queso amarillo, salsa buffalo y crujiente tocino</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Complementos">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1626082927389-d52d83988aa9?auto=format&fit=crop&w=800&q=80" alt="Papas Boneless">
-                            <span class="price">$179</span>
+                            <img src="imgmenu/pizzasarte/papasbon.jpeg" alt="Papas Boneless">
+                            <span class="price">$185</span>
                         </div>
                         <div class="menu-info">
                             <h3>PAPAS BONELESS</h3>
-                            <p>Papas fritas con trozos de boneless.</p>
+                            <p>(280g) Orden de papas a la francesa, bañadas en queso amarillo, salsa buffalo, crujiente tocino, aderezo ranch y salsa de tu elección, acompañado de boneless(280g)</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Complementos">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1531538606174-0f90ff5dce83?auto=format&fit=crop&w=800&q=80" alt="Dedos de Queso">
-                            <span class="price">$95</span>
+                            <img src="imgmenu/pizzasarte/dedos.jpeg" alt="Dedos de Queso">
+                            <span class="price">$99</span>
                         </div>
                         <div class="menu-info">
                             <h3>DEDOS DE QUESO</h3>
-                            <p>Queso mozzarella empanizado.</p>
+                            <p>Crujientes dedos de queso mozzarella acompañados con irresistible salsa de casa.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Ensaladas">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80" alt="Ensalada Gabrielos">
-                            <span class="price">$149</span>
+                            <img src="imgmenu/pizzasarte/enspla.jpeg" alt="Ensalada Gabrielos">
+                            <span class="price">$159</span>
                         </div>
                         <div class="menu-info">
                             <h3>ENSALADA GABRIELOS</h3>
-                            <p>Mezcla fresca de la casa.</p>
+                            <p>Lechuga italiana, tomate, pepino, zanahoria y aguacate, cubierto con queso mozzarella, incluye un aderezo de vinagreta por separado.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Ensaladas">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=crop&w=800&q=80" alt="Ensalada Pollo a la Plancha">
-                            <span class="price">$170</span>
+                            <img src="imgmenu/pizzasarte/enspla.jpeg" alt="Ensalada Pollo a la Plancha">
+                            <span class="price">$180</span>
                         </div>
                         <div class="menu-info">
                             <h3>ENSALADA POLLO A LA PLANCHA</h3>
-                            <p>Con tiras de pollo a la plancha.</p>
+                            <p>Pollo a la plancha servido sobre una cama de lechuga italiana, tomate, pepino, zanahoria y aguacate, cubierto con queso mozzarella, incluye un aderezo de vinagreta por separado.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Ensaladas">
+                        <div class="menu-img">
+                            <img src="imgmenu/pizzasarte/enscruj.jpeg" alt="Ensalada Pollo a la Plancha">
+                            <span class="price">$180</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>ENSALADA DE POLLO CRUJIENTE</h3>
+                            <p>Pollo crujiente servido sobre una cama de lechuga italiana, tomate, pepino, zanahoria y aguacate, cubierto con queso mozzarella, incluye un aderezo de vinagreta por separado.</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Postres">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=800&q=80" alt="Cheesecake Tortuga">
+                            <img src="imgmenu/pizzasarte/tortu.jpeg" alt="Cheesecake Tortuga">
                             <span class="price">$95</span>
                         </div>
                         <div class="menu-info">
                             <h3>CHEESECAKE TORTUGA</h3>
-                            <p>Con chocolate, caramelo y nuez.</p>
+                            <p></p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Postres">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=800&q=80" alt="Cheesecake Frambuesa">
-                            <span class="price">$95</span>
+                            <img src="imgmenu/pizzasarte/pay.jpeg" alt="Cheesecake Tortuga">
+                            <span class="price">$89</span>
                         </div>
                         <div class="menu-info">
-                            <h3>CHEESECAKE FRAMBUESA</h3>
-                            <p>Con salsa de frambuesa.</p>
+                            <h3>PAY DE LIMÓN</h3>
+                            <p></p>
                         </div>
                     </div>
 
+
                     <div class="menu-item fade-in-up" data-category="Postres">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&w=800&q=80" alt="Pastel de Nieve Fresa">
+                            <img src="imgmenu/pizzasarte/nievefresa.jpeg" alt="Pastel de Nieve Fresa">
                             <span class="price">$119</span>
                         </div>
                         <div class="menu-info">
                             <h3>PASTEL DE NIEVE FRESA</h3>
-                            <p>Refrescante pastel helado.</p>
+                            <p></p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Postres">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80" alt="Pastel de Nieve Milky Way">
+                            <img src="imgmenu/pizzasarte/milky.jpeg" alt="Pastel de Nieve Milky Way">
                             <span class="price">$119</span>
                         </div>
                         <div class="menu-info">
                             <h3>PASTEL DE NIEVE MILKY WAY</h3>
-                            <p>Sabor a chocolate Milky Way.</p>
+                            <p></p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Postres">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1562007908-17c67e878bc4?auto=format&fit=crop&w=800&q=80" alt="Pastel de Nieve Oreo">
+                            <img src="imgmenu/pizzasarte/oreo.png" alt="Pastel de Nieve Oreo">
                             <span class="price">$119</span>
                         </div>
                         <div class="menu-info">
                             <h3>PASTEL DE NIEVE OREO</h3>
-                            <p>Con galleta Oreo.</p>
+                            <p></p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Postres">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1499636138143-bd630f5cf38a?auto=format&fit=crop&w=800&q=80" alt="Galleta Rellena">
+                            <img src="imgmenu/pizzasarte/rellenagall.jpeg" alt="Galleta Rellena">
                             <span class="price">$65</span>
                         </div>
                         <div class="menu-info">
                             <h3>GALLETA RELLENA</h3>
-                            <p>Galleta horneada rellena.</p>
+                            <p>Galleta suave rellena de glaseado estilo americano</p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Postres">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=800&q=80" alt="Galleta">
+                            <img src="" alt="Galleta">
                             <span class="price">$20</span>
                         </div>
                         <div class="menu-info">
                             <h3>GALLETA</h3>
-                            <p>Galleta clásica crujiente.</p>
+                            <p></p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Postres">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=800&q=80" alt="Galleta 3x">
+                            <img src="" alt="Galleta 3x">
                             <span class="price">$55</span>
                         </div>
                         <div class="menu-info">
@@ -714,12 +808,132 @@
 
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Aguas, Té, Jugos y Refrescos">
-                            <span class="price">$35</span>
+                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <span class="price">$40</span>
+                       </div>
+                        <div class="menu-info">
+                            <h3>AGUA DE FRESA (500ml)</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
+                        <div class="menu-img">
+                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <span class="price">$40</span>
                         </div>
                         <div class="menu-info">
-                            <h3>AGUAS, TÉ, JUGOS Y REFRESCOS</h3>
-                            <p>Variedad de bebidas embotelladas.</p>
+                            <h3>AGUA DE FRESA CON LIMÓN (500ml)</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
+                        <div class="menu-img">
+                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <span class="price">$40</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>AGUA DE FRESA CON PIÑA (500ml)</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
+                        <div class="menu-img">
+                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <span class="price">$40</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>AGUA DE LIMÓN (500ml)</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
+                        <div class="menu-img">
+                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <span class="price">$40</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>AGUA DE PEPINO LIMÓN (500ml)</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
+                        <div class="menu-img">
+                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <span class="price">$45</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>LIMONADA MINERAL (500ml)</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
+                        <div class="menu-img">
+                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <span class="price">$40</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>AGUA DE PIÑA CON LIMÓN (500ml)</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
+                        <div class="menu-img">
+                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <span class="price">$40</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>AGUA DE PIÑA CON MANGO (500ml)</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
+                        <div class="menu-img">
+                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <span class="price">$40</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>AGUA DE MANGO (500ml)</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
+                        <div class="menu-img">
+                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <span class="price">$40</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>AGUA DE MANGO FRESA (500ml)</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
+                        <div class="menu-img">
+                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <span class="price">$40</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>AGUA DE MANGO CON LIMÓN (500ml)</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
+                        <div class="menu-img">
+                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <span class="price">$40</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>AGUA DE JAMAICA (500ml)</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
+                        <div class="menu-img">
+                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <span class="price">$40</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>AGUA DE JAMAICA CON LIMÓN (500ml)</h3>
+                            <p></p>
                         </div>
                     </div>
 
@@ -729,7 +943,7 @@
                             <span class="price">$25</span>
                         </div>
                         <div class="menu-info">
-                            <h3>AGUA EMBOTELLADA</h3>
+                            <h3>AGUA EMBOTELLADA (500ml)</h3>
                             <p>Agua natural purificada.</p>
                         </div>
                     </div>
@@ -748,13 +962,103 @@
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
                             <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" alt="Jarras">
-                            <span class="price">$140</span>
+                            <span class="price">$179</span>
                         </div>
                         <div class="menu-info">
-                            <h3>JARRAS</h3>
+                            <h3>JARRAS (2.5L)</h3>
                             <p>Jarra de agua de sabor.</p>
                         </div>
                     </div>
+
+                    <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
+                        <div class="menu-img">
+                            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" alt="Jarras">
+                            <span class="price">$35</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>JUGO DE MANZANA (500ml)</h3>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
+                        <div class="menu-img">
+                            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" alt="Jarras">
+                            <span class="price">$35</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>JUGO DE MANGO (500ml)</h3>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
+                        <div class="menu-img">
+                            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" alt="Jarras">
+                            <span class="price">$35</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>JUGO DE UVA (500ml)</h3>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
+                        <div class="menu-img">
+                            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" alt="Jarras">
+                            <span class="price">$35</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>JUGO DE DURAZNO (500ml)</h3>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
+                        <div class="menu-img">
+                            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" alt="Jarras">
+                            <span class="price">$35</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3>JUGO DE NARANJA (500ml)</h3>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
+                        <div class="menu-img">
+                            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" alt="Jarras">
+                            <span class="price">$40</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3> REFRESCOS (500ml)</h3>
+                            <p>Coca, Coca Light y Coca sin azúcar.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
+                        <div class="menu-img">
+                            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" alt="Jarras">
+                            <span class="price">$35</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3> TOPOCHIC (355ml)</h3>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
+                        <div class="menu-img">
+                            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" alt="Jarras">
+                            <span class="price">$35</span>
+                        </div>
+                        <div class="menu-info">
+                            <h3> FUZETEA (355ml)</h3>
+                            <p>Limón y Durazno</p>
+                        </div>
+                    </div>
+
+
                 </div>
 
             </div>

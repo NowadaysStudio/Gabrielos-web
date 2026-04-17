@@ -15,23 +15,23 @@
     <div class="announcement-bar">
         <div class="marquee-track">
             <div class="marquee-content">
-                <span><i class="fas fa-wine-glass"></i> YA CONTAMOS CON VENTA DE ALCOHOL</span>
+                <span><i class="fas fa-wine-glass"></i> MIÉRCOLES Y JUEVES DE COMPRA UNA PIZZA Y LLEVATE LA SEGUNDA A MITAD DE PRECIO </span>
                 <span class="divider">•</span>
-                <span><i class="fas fa-motorcycle"></i> SERVICIO A DOMICILIO DISPONIBLE</span>
+                <span><i class="fas fa-motorcycle"></i> CONTAMOS CON PROMOCIÓN PARA EL CUMPLEAÑERO</span>
                 <span class="divider">•</span>
-                <span><i class="fas fa-drumstick-bite"></i> JUEVES DE BONELESS 2X1</span>
+                <span><i class="fas fa-drumstick-bite"></i> MIÉRCOLES Y JUEVES DE BONELESS 2X1</span>
                 <span class="divider">•</span>
-                <span>RESERVA TU POSADA CON NOSOTROS</span>
+                <span>VIERNES Y SÁBADO CERVEZA 2 x $80</span>
                 <span class="divider">•</span>
             </div>
             <div class="marquee-content">
-                <span><i class="fas fa-wine-glass"></i> YA CONTAMOS CON VENTA DE ALCOHOL</span>
+                <span><i class="fas fa-wine-glass"></i> MIÉRCOLES Y JUEVES DE COMPRA UNA PIZZA Y LLEVATE LA SEGUNDA A MITAD DE PRECIO</span>
                 <span class="divider">•</span>
-                <span><i class="fas fa-motorcycle"></i> SERVICIO A DOMICILIO DISPONIBLE</span>
+                <span><i class="fas fa-motorcycle"></i> CONTAMOS CON PROMOCIÓN PARA EL CUMPLEAÑERO</span>
                 <span class="divider">•</span>
-                <span><i class="fas fa-drumstick-bite"></i> JUEVES DE BONELESS 2X1</span>
+                <span><i class="fas fa-drumstick-bite"></i> MIÉRCOLES Y JUEVES DE BONELESS 2X1</span>
                 <span class="divider">•</span>
-                <span>RESERVA TU POSADA CON NOSOTROS</span>
+                <span>VIERNES Y SÁBADO CERVEZA 2 x $80</span>
                 <span class="divider">•</span>
             </div>
         </div>

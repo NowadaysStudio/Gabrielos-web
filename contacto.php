@@ -29,7 +29,7 @@
                         <i class="fas fa-phone-alt"></i>
                     </div>
                     <h3>RESERVAS & PEDIDOS</h3>
-                    <p>+52 81 1234 5678</p>
+                    <p>+52 81 2387 8321</p>
                     <p class="small-text">Disponible también en WhatsApp</p>
                 </div>
 
@@ -38,8 +38,14 @@
                         <i class="far fa-clock"></i>
                     </div>
                     <h3>HORARIOS</h3>
-                    <p>Mar - Dom: 1:00 PM - 10:00 PM</p>
+                    <p>Domingo: 12:30 p.m. - 10:00 p.m.</p>
                     <p>Lunes: Cerrado</p>
+                    <p>Martes: Cerrado</p>
+                    <p>Miércoles: 5:00 p.m. - 10:30 p.m.</p>
+                    <p>Jueves: 4:00 p.m. - 10:30 p.m.</p>
+                    <p>Viernes: 12:30 p.m. - 10:30 p.m.</p>
+                    <p>Sábado: 12:30 p.m. - 10:30 p.m.</p>
+                    
                 </div>
 
             </div>

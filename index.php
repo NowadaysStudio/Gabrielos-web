@@ -45,6 +45,14 @@
                 <img src="imgmain/imgcarrusel/img6.jpg" alt="Ambiente">
                 <div class="reel-overlay"><i class="fas fa-users reel-icon"></i></div>
             </div>
+            <div class="reel-item">
+                <img src="imgmain/imgcarrusel/img7.jpeg" alt="Ambiente">
+                <div class="reel-overlay"><i class="fas fa-users reel-icon"></i></div>
+            </div>
+            <div class="reel-item">
+                <img src="imgmain/imgcarrusel/img8.jpeg" alt="Ambiente">
+                <div class="reel-overlay"><i class="fas fa-users reel-icon"></i></div>
+            </div>
         </div>
     </section>
 
@@ -56,7 +64,7 @@
             </div>
 
             <div class="text-column fade-in-right">
-                <span class="badge">SOLO LOS JUEVES</span>
+                <span class="badge">SOLO LOS MIÉRCOLES Y JUEVES</span>
                 <h2 class="section-title">DOBLE SABOR, <span class="text-gold">MITAD DE PRECIO</span></h2>
                 <span class="promo-subtitle">BONELESS AL 2x1</span>
                 
@@ -69,7 +77,72 @@
                     <div class="promo-tag"><i class="fas fa-tv"></i> Zona Music</div>
                 </div>
 
-                <a href="contacto.php" class="btn btn-primary">RESERVAR</a>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="section-padding bg-dark-grey">
+        <div class="container grid-2">
+            
+            <div class="image-column fade-in-left">
+                <img src="imgmain/pizzados.jpeg" alt="Promoción Boneless y Cerveza Stella Artois" class="promo-rect-img">
+            </div>
+
+            <div class="text-column fade-in-right">
+                <span class="badge">SOLO LOS MIÉRCOLES Y JUEVES</span>
+                <h2 class="section-title">¿UNA PIZZA...? <span class="text-gold">MEJOR LLEVATE DOS</span></h2>
+                <span class="promo-subtitle"><span class="text-gold">COMPRA UNA Y LLEVATE LA SEGUNDA AL 50% DE DESCUENTO</span> DE IGUAL O MENOR PRECIO</span>
+                
+
+                <p><strong>Se excluyen Chicagos, Philadelphia y Rellenas.</strong></p>
+
+
+
+            </div>
+
+        </div>
+    </section>
+    </section>
+    <section class="section-padding bg-dark-grey">
+        <div class="container grid-2">
+            
+            <div class="image-column fade-in-left">
+                <img src="imgmain/cumple.jpeg" alt="Promoción Boneless y Cerveza Stella Artois" class="promo-rect-img">
+            </div>
+
+            <div class="text-column fade-in-right">
+                <span class="badge">SEMANA DE CUMPLEAÑERO</span>
+                <h2 class="section-title">CELEBRA TÚ CUMPLEAÑOS <span class="text-gold">EN GABRIELOS</span></h2>
+                <span class="promo-subtitle">VEN Y CELEBRA TU CUMPLEAÑOS Y DISFRUTA DE UN MOMENTO ESPECIAL CON TUS SERES QUERIDOS</span>
+                
+
+                <p><strong>Requisitos: </strong> Llevar documento oficial (INE, Acta de Nacimiento con CURP o Pasaporte)</p>
+
+
+
+            </div>
+
+        </div>
+    </section>
+    </section>
+    <section class="section-padding bg-dark-grey">
+        <div class="container grid-2">
+            
+            <div class="image-column fade-in-left">
+                <img src="imgmain/cerveza.jpeg" alt="Promoción Boneless y Cerveza Stella Artois" class="promo-rect-img">
+            </div>
+
+            <div class="text-column fade-in-right">
+                <span class="badge">PROMOCIÓN DE CERVEZA LOS VIERNES Y SÁBADO</span>
+                <h2 class="section-title">CERVEZA <span class="text-gold">2 X $80 </span></h2>
+                <span class="promo-subtitle">APLICA PARA TODAS LAS CERVEZAS NACIONALES E IMPORTADAS</span>
+                
+
+                
+
+
+
             </div>
 
         </div>
@@ -86,16 +159,16 @@
                 <div class="reservation-box-dark">
                     <strong><i class="fas fa-calendar-check"></i> Política de Reservas</strong>
                     <p style="margin:0; font-size: 0.95rem; color: #ccc;">
-                        Las reservaciones se gestionan exclusivamente para <b>grupos de 10 personas o más</b>. Si tu grupo es menor, acude directamente y te asignaremos mesa por orden de llegada.
+                        Las reservaciones se gestionan exclusivamente para <b>grupos de 30 a 50 personas</b>. Si tu grupo es menor, acude directamente y te asignaremos mesa por orden de llegada.
                     </p>
                 </div>
 
-                <a href="https://wa.me/528112345678" target="_blank" class="btn btn-outline">RESERVAR EVENTO</a>
+                <a href="https://wa.me/528123878321" target="_blank" class="btn btn-outline">RESERVAR EVENTO</a>
             </div>
 
             <div class="image-column fade-in-right">
                 <div class="event-img-wrapper">
-                    <img src="imgmain/reserva.jpg" alt="Evento privado en Gabrielos Pizza" class="event-img-offset">
+                    <img src="imgmain/reserva.jpeg" alt="Evento privado en Gabrielos Pizza" class="event-img-offset">
                 </div>
             </div>
 

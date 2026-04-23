@@ -244,7 +244,7 @@ img { width: 100%; display: block; }
 .btn-link:hover { color: var(--accent-hover); padding-left: 5px; }
 
 /* --- Contacto --- */
-.contact-header { background-image: url('https://images.unsplash.com/photo-1552566626-52f8b828add9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80'); }
+.contact-header { background-image: url('imgmain/cont.jpeg'); }
 .contact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; text-align: center; }
 .contact-box { background-color: var(--bg-light); padding: 40px 20px; border-radius: 8px; border: 1px solid #222; transition: var(--transition); }
 .contact-box:hover { border-color: var(--accent-color); transform: translateY(-5px); }
@@ -262,7 +262,7 @@ img { width: 100%; display: block; }
 .btn-block { width: 100%; text-align: center; }
 
 /* --- EXPERIENCIAS (UPDATED) --- */
-.experiences-header { background-image: url('https://images.unsplash.com/photo-1543007630-9710e4a00a20?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80'); }
+.experiences-header { background-image: url('imgmain/exp.jpeg'); }
 
 /* Reseña Hero (Destacada Horizontal) */
 .hero-card {

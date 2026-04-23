@@ -808,7 +808,7 @@
 
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <img src="imgmenu/pizzasarte/fresa.jpeg" alt="Agua de fresa">
                             <span class="price">$40</span>
                        </div>
                         <div class="menu-info">
@@ -818,7 +818,7 @@
                     </div>
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <img src="imgmenu/pizzasarte/fresalimon.jpeg" alt="Agua de fresa">
                             <span class="price">$40</span>
                         </div>
                         <div class="menu-info">
@@ -828,7 +828,7 @@
                     </div>
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <img src="imgmenu/pizzasarte/piñafresa.jpeg" alt="Agua de fresa">
                             <span class="price">$40</span>
                         </div>
                         <div class="menu-info">
@@ -838,7 +838,7 @@
                     </div>
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <img src="imgmenu/pizzasarte/limon.jpeg" alt="Agua de fresa">
                             <span class="price">$40</span>
                         </div>
                         <div class="menu-info">
@@ -848,7 +848,7 @@
                     </div>
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <img src="imgmenu/pizzasarte/pepinolimon.jpeg" alt="Agua de fresa">
                             <span class="price">$40</span>
                         </div>
                         <div class="menu-info">
@@ -858,7 +858,7 @@
                     </div>
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <img src="imgmenu/pizzasarte/mineral.jpeg" alt="Agua de fresa">
                             <span class="price">$45</span>
                         </div>
                         <div class="menu-info">
@@ -868,7 +868,7 @@
                     </div>
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <img src="imgmenu/pizzasarte/piñalimon.jpeg" alt="Agua de fresa">
                             <span class="price">$40</span>
                         </div>
                         <div class="menu-info">
@@ -878,7 +878,7 @@
                     </div>
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <img src="imgmenu/pizzasarte/piñamango.jpeg" alt="Agua de fresa">
                             <span class="price">$40</span>
                         </div>
                         <div class="menu-info">
@@ -888,7 +888,7 @@
                     </div>
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <img src="imgmenu/pizzasarte/aguamango.jpeg" alt="Agua de fresa">
                             <span class="price">$40</span>
                         </div>
                         <div class="menu-info">
@@ -898,7 +898,7 @@
                     </div>
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <img src="imgmenu/pizzasarte/mangofresa.jpeg" alt="Agua de fresa">
                             <span class="price">$40</span>
                         </div>
                         <div class="menu-info">
@@ -908,7 +908,7 @@
                     </div>
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <img src="imgmenu/pizzasarte/mangolimon.jpeg" alt="Agua de fresa">
                             <span class="price">$40</span>
                         </div>
                         <div class="menu-info">
@@ -918,7 +918,7 @@
                     </div>
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <img src="imgmenu/pizzasarte/jamaica.jpeg" alt="Agua de fresa">
                             <span class="price">$40</span>
                         </div>
                         <div class="menu-info">
@@ -928,7 +928,7 @@
                     </div>
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1544145945-f904253d0c7b?auto=format&fit=crop&w=800&q=80" alt="Agua de fresa">
+                            <img src="imgmenu/pizzasarte/jamaicalimon.jpeg" alt="Agua de fresa">
                             <span class="price">$40</span>
                         </div>
                         <div class="menu-info">
@@ -939,7 +939,7 @@
 
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1564414250694-4387c35d9a8e?auto=format&fit=crop&w=800&q=80" alt="Agua Embotellada">
+                            <img src="imgmenu/pizzasarte/aguaembot.jpeg" alt="Agua Embotellada">
                             <span class="price">$25</span>
                         </div>
                         <div class="menu-info">
@@ -950,7 +950,7 @@
 
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1517701604599-bb29b5c73553?auto=format&fit=crop&w=800&q=80" alt="Café Frío">
+                            <img src="imgmenu/pizzasarte/cafefrio.jpeg" alt="Café Frío">
                             <span class="price">$50</span>
                         </div>
                         <div class="menu-info">
@@ -961,7 +961,7 @@
 
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" alt="Jarras">
+                            <img src="imgmenu/pizzasarte/jarras.jpeg" alt="Jarras">
                             <span class="price">$179</span>
                         </div>
                         <div class="menu-info">
@@ -972,7 +972,7 @@
 
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" alt="Jarras">
+                            <img src="imgmenu/pizzasarte/jugos.jpeg" alt="Jarras">
                             <span class="price">$35</span>
                         </div>
                         <div class="menu-info">
@@ -983,7 +983,7 @@
 
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" alt="Jarras">
+                            <img src="imgmenu/pizzasarte/jugos.jpeg" alt="Jarras">
                             <span class="price">$35</span>
                         </div>
                         <div class="menu-info">
@@ -994,7 +994,7 @@
 
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" alt="Jarras">
+                            <img src="imgmenu/pizzasarte/jugos.jpeg" alt="Jarras">
                             <span class="price">$35</span>
                         </div>
                         <div class="menu-info">
@@ -1005,7 +1005,7 @@
 
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" alt="Jarras">
+                            <img src="imgmenu/pizzasarte/jugos.jpeg" alt="Jarras">
                             <span class="price">$35</span>
                         </div>
                         <div class="menu-info">
@@ -1016,7 +1016,7 @@
 
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" alt="Jarras">
+                            <img src="imgmenu/pizzasarte/jugos.jpeg" alt="Jarras">
                             <span class="price">$35</span>
                         </div>
                         <div class="menu-info">
@@ -1027,7 +1027,7 @@
 
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" alt="Jarras">
+                            <img src="imgmenu/pizzasarte/chesco.jpeg" alt="Jarras">
                             <span class="price">$40</span>
                         </div>
                         <div class="menu-info">
@@ -1038,18 +1038,18 @@
 
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" alt="Jarras">
+                            <img src="imgmenu/pizzasarte/topochico.jpeg" alt="Jarras">
                             <span class="price">$35</span>
                         </div>
                         <div class="menu-info">
-                            <h3> TOPOCHIC (355ml)</h3>
+                            <h3> TOPOCHICO (355ml)</h3>
                             <p></p>
                         </div>
                     </div>
 
                     <div class="menu-item fade-in-up" data-category="Bebidas sin alcohol">
                         <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" alt="Jarras">
+                            <img src="imgmenu/pizzasarte/fuze.jpeg" alt="Jarras">
                             <span class="price">$35</span>
                         </div>
                         <div class="menu-info">

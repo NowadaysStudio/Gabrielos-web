@@ -52,7 +52,7 @@
         </div>
     </section>
 
-    <section class="map-section">
+<section class="map-section">
         <iframe 
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.949542910508!2d-100.31493432387069!3d25.772230108168593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86629386e4424005%3A0xcb95e2c7d5e6bbff!2sGabrielo's%20pizzeria!5e0!3m2!1ses-419!2smx!4v1767553243791!5m2!1ses-419!2smx" 
             width="100%" 
@@ -66,36 +66,12 @@
 
     <section class="section-padding bg-dark-grey">
         <div class="container fade-in-up">
-            <div class="form-container">
-                <div class="form-header">
-                    <h2 class="section-title-center">BUZÓN DE <span class="text-gold">SUGERENCIAS</span></h2>
-                    <p>Tu opinión es el ingrediente secreto para mejorar. Cuéntanos tu experiencia.</p>
-                </div>
-
-                <form class="contact-form" id="contactForm">
-                    <div class="input-group">
-                        <input type="text" id="nombre" name="nombre" placeholder="Tu Nombre" required>
-                    </div>
-                    
-                    <div class="input-group">
-                        <input type="email" id="email" name="email" placeholder="Tu Correo Electrónico" required>
-                    </div>
-
-                    <div class="input-group">
-                        <select id="asunto" name="asunto">
-                            <option value="sugerencia">Sugerencia</option>
-                            <option value="queja">Queja</option>
-                            <option value="felicitacion">Felicitación</option>
-                            <option value="otro">Otro</option>
-                        </select>
-                    </div>
-
-                    <div class="input-group">
-                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary btn-block">ENVIAR COMENTARIO</button>
-                </form>
+            <div class="review-container text-center">
+                <h2 class="section-title-center">¡DANOS TU <span class="text-gold">OPINIÓN</span>!</h2>
+                <p class="review-subtitle">Queremos escucharte. Tu experiencia nos ayuda a mejorar cada día.</p>
+                <a href="https://www.google.com/search?client=ms-android-samsung-rvo1&hs=lq5U&sca_esv=4464ee469522b0d6&sxsrf=ANbL-n7IbD4ppNNTpaTz4eJ7T1a95hGLTA:1776931339151&q=opiniones+de+gabrielo%27s+pizzeria&uds=ALYpb_lbwLgHhwHVODTJiHOOCZKZ8LKizNXVX8Sao_vPqbRwzNsJLQaX-Sioq3GTZkNW3SX3x2eat03AQWlMPjAxp7-SzKq-2NBSSWO7NKVHVwIEUWYl1NiKiQrtarNk7ut7fEiJJH22Vw_1iXDG4hb4lVVnaBOQxfgVThyM1AGNK4Ke1gsJd9d84CZFQq1pD4hlwCZRcrE7onl_pseIhLPggFnh5FiMqa6nysyk0ljLZ2gbFWsGEYM8Pvlor8UROg5EUoijJi6QNlzeWuIqH6KJDyEWlxVojFBMSlhqXQElJz3MC_0lhHOu6MCMY95lJ0zs0xhEdtz0fo5npn0WQunKINCSCGofoZjf_t5bvv5tcRmFYZar7oRsDps9EMDItWC05EhVpf0Z33uKWAj_IJgtfR6EM7MTxlJNaZf84-BYTDTD9bO5kOsPii8Ox7h_1Mx_iDfJD6nZosMz_0J8tILtQpyLZIIsu9-lsAaVfgn0-MqKyreHPbjOUaH4q5MNeJ4z5Qf9a8tf&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOdlinJgS9TDtmDk11r-0-9ReW8EZKUmELLANITavQO_mUW_-A7Wq0jY3wT8JjiCBoaaC2gW-QjOoJb4PlTXk1m45orzPKC20snRTLa-x-6CSvHay2Q%3D%3D&sa=X&sqi=2&ved=2ahUKEwjKp4qKwYOUAxVzl2oFHdteMYIQk8gLegQIGRAB&ictx=1&stq=1&cs=1&lei=C9LpaYr2CPOuqtsP273FkQg#ebo=4" target="_blank" class="btn btn-primary review-btn">
+                    <i class="fab fa-google"></i> DEJAR RESEÑA EN GOOGLE
+                </a>
             </div>
         </div>
     </section>

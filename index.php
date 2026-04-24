@@ -8,7 +8,7 @@
         <div class="hero-content fade-in-up">
             <h1>Hechas artesanalmente con tradición... <span class="text-gold">donde la calidad es el ingrediente principal!</span></h1>
             <div style="margin-top: 30px;">
-                <button class="btn btn-outline" type="button">RESERVAR</button>
+                
                 <a href="menu.php" class="btn btn-primary">VER MENÚ</a>
             </div>
         </div>

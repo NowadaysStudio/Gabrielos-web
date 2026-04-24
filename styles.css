@@ -261,6 +261,56 @@ img { width: 100%; display: block; }
 .input-group input:focus, .input-group select:focus, .input-group textarea:focus { border-color: var(--accent-color); }
 .btn-block { width: 100%; text-align: center; }
 
+/* --- Sección de Reseñas / Opinión --- */
+.review-container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #1a1a1a;
+    padding: 60px 40px;
+    border-radius: 12px;
+    border: 1px solid var(--accent-color);
+    box-shadow: 0 10px 30px rgba(213, 153, 69, 0.15);
+    transition: var(--transition);
+}
+
+.review-container:hover {
+    box-shadow: 0 15px 40px rgba(213, 153, 69, 0.25);
+    transform: translateY(-5px);
+}
+
+.review-subtitle {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.review-btn {
+    font-size: 1.1rem;
+    padding: 16px 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+.review-btn i {
+    font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+    .review-container {
+        padding: 40px 20px;
+    }
+    .review-btn {
+        width: 100%;
+        padding: 15px 20px;
+        font-size: 1rem;
+    }
+}
+
 /* --- EXPERIENCIAS (UPDATED) --- */
 .experiences-header { background-image: url('imgmain/exp.jpeg'); }
 

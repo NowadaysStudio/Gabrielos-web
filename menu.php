@@ -8,6 +8,7 @@
         <div class="header-content fade-in-up">
             <h1>NUESTRO <span class="text-gold">MENÚ</span></h1>
             <p>Sabores auténticos creados con pasión</p>
+            <p style="font-size: 0.9rem; margin-top: 5px; opacity: 0.7;">En caso de requerir factura se aplicara un cargo del 16% de IVA</p>
         </div>
     </header>
 
@@ -770,17 +771,6 @@
                         <div class="menu-info">
                             <h3>PASTEL DE NIEVE OREO</h3>
                             <p></p>
-                        </div>
-                    </div>
-
-                    <div class="menu-item fade-in-up" data-category="Postres">
-                        <div class="menu-img">
-                            <img src="imgmenu/pizzasarte/rellenagall.jpeg" alt="Galleta Rellena">
-                            <span class="price">$65</span>
-                        </div>
-                        <div class="menu-info">
-                            <h3>GALLETA RELLENA</h3>
-                            <p>Galleta suave rellena de glaseado estilo americano</p>
                         </div>
                     </div>
 

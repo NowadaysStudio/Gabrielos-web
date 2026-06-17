@@ -149,52 +149,7 @@
 
             </div>
 
-            <!-- BLOQUE DE SALSAS WINGS & BONELESS -->
-            <div id="wings-salsas-block" class="wings-salsas-hidden">
-                <div class="menu-container">
-                  <fieldset class="tabla-salsas">
-                    <legend>SALSAS</legend>
-                    <div class="grid-layout salsas">
-                      
-                      <div class="item-salsa">
-                        <span class="salsa-texto">Salsa<br><strong>BBQ</strong></span>
-                      </div>
-                      
-                      <div class="item-salsa">
-                        <span class="salsa-texto">Salsa<br><strong>LIMÓN<br>PIMIENTA</strong></span>
-                      </div>
-                      
-                      <div class="item-salsa">
-                        <span class="salsa-texto">Salsa<br><strong>BUFFALO</strong></span>
-                        <div class="nivel-picante">
-                          <svg class="flame flame-yellow" viewBox="0 0 24 24"><path d="M12 2c0 0-4 4-4 8s4 12 4 12 4-8 4-12-4-8-4-8z"/></svg>
-                          <svg class="flame flame-orange" viewBox="0 0 24 24"><path d="M12 2c0 0-4 4-4 8s4 12 4 12 4-8 4-12-4-8-4-8z"/></svg>
-                        </div>
-                      </div>
-                      
-                      <div class="item-salsa">
-                        <span class="salsa-texto">Salsa<br><strong>CHIPOTLE</strong></span>
-                        <div class="nivel-picante">
-                          <svg class="flame flame-yellow" viewBox="0 0 24 24"><path d="M12 2c0 0-4 4-4 8s4 12 4 12 4-8 4-12-4-8-4-8z"/></svg>
-                          <svg class="flame flame-orange" viewBox="0 0 24 24"><path d="M12 2c0 0-4 4-4 8s4 12 4 12 4-8 4-12-4-8-4-8z"/></svg>
-                          <svg class="flame flame-red" viewBox="0 0 24 24"><path d="M12 2c0 0-4 4-4 8s4 12 4 12 4-8 4-12-4-8-4-8z"/></svg>
-                        </div>
-                      </div>
-                      
-                      <div class="item-salsa">
-                        <span class="salsa-texto">Salsa<br><strong>MANGO<br>HABANERO</strong></span>
-                        <div class="nivel-picante">
-                          <svg class="flame flame-yellow" viewBox="0 0 24 24"><path d="M12 2c0 0-4 4-4 8s4 12 4 12 4-8 4-12-4-8-4-8z"/></svg>
-                          <svg class="flame flame-orange" viewBox="0 0 24 24"><path d="M12 2c0 0-4 4-4 8s4 12 4 12 4-8 4-12-4-8-4-8z"/></svg>
-                          <svg class="flame flame-red" viewBox="0 0 24 24"><path d="M12 2c0 0-4 4-4 8s4 12 4 12 4-8 4-12-4-8-4-8z"/></svg>
-                          <svg class="flame flame-dark" viewBox="0 0 24 24"><path d="M12 2c0 0-4 4-4 8s4 12 4 12 4-8 4-12-4-8-4-8z"/></svg>
-                        </div>
-                      </div>
 
-                    </div>
-                  </fieldset>
-                </div>
-            </div>
 
             <div class="menu-grid">
                 

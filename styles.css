@@ -854,9 +854,10 @@ footer { background-color: #111; padding: 40px 0; text-align: center; border-top
     .hero-content h1 { font-size: 2rem; }
 
     /* --- Headers internos (Menú, Contacto, etc.) ---
-       105px = compensa barra anuncios (35px) + navbar (~60px) + 10px de espacio
-       height: auto + min-height para que el contenido (ej: tabla ingredientes) no se comprima */
-    .page-header     { margin-top: 105px; height: auto; min-height: 40vh; }
+       Usa el margin-top: 130px del desktop (no se reduce en móvil)
+       height: auto + min-height para que el contenido no se comprima
+       padding-top: 20px da espacio extra para que el h1 no quede pegado a la navbar */
+    .page-header     { height: auto; min-height: 40vh; padding-top: 20px; }
     .header-content h1 { font-size: 2rem; }
 
     /* --- Layouts --- */

@@ -253,6 +253,8 @@
                 <button class="filter-btn" data-filter="Ensaladas">Ensaladas</button>
                 <button class="filter-btn" data-filter="Postres">Postres</button>
                 <button class="filter-btn" data-filter="Bebidas sin alcohol">Bebidas sin alcohol</button>
+                <button class="filter-btn" data-filter="Cervezas">Cervezas</button>
+                <button class="filter-btn" data-filter="Vinos">Vinos</button>
 
             </div>
 
@@ -1276,6 +1278,111 @@
                         <div class="menu-info">
                             <h3> FUZETEA (355ml)</h3>
                             <p>Limón y Durazno</p>
+                        </div>
+                    </div>
+
+
+                    <!-- ==================== CERVEZAS ==================== -->
+
+                    <div class="menu-item fade-in-up cerveza-card mix-card" data-category="Cervezas">
+                        <div class="cerveza-header mix-header">
+                            <i class="fas fa-cocktail"></i>
+                            <h3>MIX DE SABORES</h3>
+                        </div>
+                        <div class="cerveza-list">
+                            <div class="mix-row">
+                                <div class="mix-info">
+                                    <span class="cerveza-name">Tarro Michelado</span>
+                                    <span class="mix-desc">Limón, sal y salsas en tarro escarchado.</span>
+                                </div>
+                                <span class="cerveza-price">$45</span>
+                            </div>
+                            <div class="mix-row">
+                                <div class="mix-info">
+                                    <span class="cerveza-name">Clamato Preparado</span>
+                                    <span class="mix-desc">Clamato con limón, salsas y especias.</span>
+                                </div>
+                                <span class="cerveza-price">$55</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up cerveza-card" data-category="Cervezas">
+                        <div class="cerveza-header">
+                            <i class="fas fa-beer"></i>
+                            <h3>CERVEZAS CLARAS / LAGER CLARAS <span class="cerveza-ml">(355ml)</span></h3>
+                        </div>
+                        <div class="cerveza-list">
+                            <div class="cerveza-row"><span class="cerveza-name">Indio</span><span class="cerveza-price">$45</span></div>
+                            <div class="cerveza-row"><span class="cerveza-name">Tecate</span><span class="cerveza-price">$45</span></div>
+                            <div class="cerveza-row"><span class="cerveza-name">Carta Blanca</span><span class="cerveza-price">$45</span></div>
+                            <div class="cerveza-row"><span class="cerveza-name">XX Lager</span><span class="cerveza-price">$50</span></div>
+                            <div class="cerveza-row"><span class="cerveza-name">Bohemia Clara</span><span class="cerveza-price">$55</span></div>
+                            <div class="cerveza-row"><span class="cerveza-name">Bohemia Cristal</span><span class="cerveza-price">$55</span></div>
+                            <div class="cerveza-row"><span class="cerveza-name">Modelo Especial</span><span class="cerveza-price">$55</span></div>
+                            <div class="cerveza-row"><span class="cerveza-name">Stella Artois</span><span class="cerveza-price">$59</span></div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up cerveza-card" data-category="Cervezas">
+                        <div class="cerveza-header">
+                            <i class="fas fa-beer"></i>
+                            <h3>CERVEZAS ÁMBAR / OSCURAS <span class="cerveza-ml">(355ml)</span></h3>
+                        </div>
+                        <div class="cerveza-list">
+                            <div class="cerveza-row"><span class="cerveza-name">XX Ámbar</span><span class="cerveza-price">$50</span></div>
+                            <div class="cerveza-row"><span class="cerveza-name">Bohemia Oscura</span><span class="cerveza-price">$55</span></div>
+                            <div class="cerveza-row"><span class="cerveza-name">Modelo Negra</span><span class="cerveza-price">$55</span></div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up cerveza-card" data-category="Cervezas">
+                        <div class="cerveza-header">
+                            <i class="fas fa-beer"></i>
+                            <h3>CERVEZA LIGHT / ULTRA <span class="cerveza-ml">(355ml)</span></h3>
+                        </div>
+                        <div class="cerveza-list">
+                            <div class="cerveza-row"><span class="cerveza-name">Amstel Ultra</span><span class="cerveza-price">$50</span></div>
+                            <div class="cerveza-row"><span class="cerveza-name">Michelob Ultra</span><span class="cerveza-price">$50</span></div>
+                        </div>
+                    </div>
+
+
+                    <!-- ==================== VINOS ==================== -->
+
+                    <div class="menu-item fade-in-up" data-category="Vinos">
+                        <div class="menu-img">
+                            <img src="imgmenu/pizzasarte/vinotinto.jpeg" alt="Casa Madero 3V Tinto">
+                            <span class="price">$139</span>
+                        </div>
+                        <div class="menu-info">
+                            <span class="vino-tipo">Vino Tinto</span>
+                            <h3>CASA MADERO 3V</h3>
+                            <p>México, Valle de Parras | Cabernet Sauvignon + Merlot + Tempranillo. (150ml)</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Vinos">
+                        <div class="menu-img">
+                            <img src="imgmenu/pizzasarte/vinorosa.jpeg" alt="Casa Madero V Rosado">
+                            <span class="price">$119</span>
+                        </div>
+                        <div class="menu-info">
+                            <span class="vino-tipo">Vino Rosado</span>
+                            <h3>CASA MADERO V</h3>
+                            <p>México, Valle de Parras | Syrah. (150ml)</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item fade-in-up" data-category="Vinos">
+                        <div class="menu-img">
+                            <img src="imgmenu/pizzasarte/vinoblanco.jpeg" alt="Casa Madero 2V Blanco">
+                            <span class="price">$119</span>
+                        </div>
+                        <div class="menu-info">
+                            <span class="vino-tipo">Vino Blanco</span>
+                            <h3>CASA MADERO 2V</h3>
+                            <p>México, Valle de Parras | Chardonnay + Chenin Blanc. (150ml)</p>
                         </div>
                     </div>
 
